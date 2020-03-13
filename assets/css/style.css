@@ -277,6 +277,12 @@ header video
   text-decoration: none;
 }
 
+.img-team-name{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
 .img-team
 {
   width: 100%;
@@ -288,7 +294,7 @@ figcaption
 {
   color: #ffffff;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.0em;
   padding-top: 3%;
 }
 
