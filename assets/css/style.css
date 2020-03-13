@@ -1,0 +1,603 @@
+@font-face
+{
+  font-family: 'Saira Semi Condensed';
+  src: url('../fonts/SairaSemiCondensed-Regular.ttf');
+}
+
+
+/* CSS Index */
+html,body
+{
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+/* CSS Navbar */
+nav
+{
+  background-color: transparent /*#222325*/;
+}
+nav ul li a, .navbar-brand, nav i
+{
+  color:  #ffffff;
+  font-size: 1.2em;
+}
+nav ul li a:hover
+{
+  color: #000000;
+}
+.btn-navbar
+{
+  background-color: transparent;
+  border: none;
+}
+
+.img-logo
+{
+  width: 120px;
+  height: 33px;
+  margin-top: -10px;
+}
+
+.navbar-custom {
+  margin-bottom: 0;
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
+  text-transform: uppercase;
+  background-color: #222325;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li.active {
+  outline: none;
+}
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-custom .nav li.active a:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: #222325;
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
+  }
+}
+
+
+
+
+
+/* ----CSS Header-----*/
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+  /*background: url('../img/foto-principal.jpg') round scroll;*/
+  width: 100%;
+  height: 658px;
+}
+header video
+{
+  width: 100%;
+}
+.background-video 
+{
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+#video-bg-elem 
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.content 
+{
+  position: absolute;
+  width: 100%;
+  min-height: 658px;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.content h1 
+{
+  text-align: center;
+  font-size: 65px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #ffffff;
+  padding-top: 15%;
+  margin-bottom: 10px;
+}
+
+.btn-header
+{
+  /*background-color: #666;*/
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2.0em;
+  border: solid 2px #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  height: 60px;
+  margin-top: 20px; 
+  background: transparent;
+}
+
+.btn-header:hover, .btn-header:focus
+{
+  outline: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 1220px) /* Esse media-query é valor maximo até o video ficar com bordas*/
+{
+  header
+  {
+    width: 100%;
+    height: 688px;
+    background: url('../img/op1.png') round !important;
+  }
+
+  .background-video
+  {
+    display: none !important;
+  }
+
+  .content
+  {
+    min-height: 688px;
+  }
+  
+  .content h1 
+  {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 768px)
+{
+  header
+  {
+    width: 100%;
+    height: 688px;
+    background: url('../img/op1.png') round !important;
+  }
+
+  .background-video 
+  {
+    display: none !important;
+  }
+
+  .content
+  {
+    min-height: 688px;
+  }
+  
+  .content h1 
+  {
+    font-size: 55px;
+    padding-top: 30%;
+  }
+}
+
+@media (max-width: 480px)
+{
+  header
+  {
+    width: 100%;
+    height: 588px;
+  }
+  header .content
+  {
+    width: 100%;
+    min-height: 588px;
+    padding-top: 20%;
+  }
+
+  .content h1 
+  {
+    font-size: 50px;
+    padding-top: 23%;
+  }
+
+}
+
+
+
+
+/* ----CSS Team Name------*/
+#team-name
+{
+  background-color: #222325;
+  padding-bottom: 30px;
+  height: 688px;
+  z-index: 2000;
+}
+.name-integrante
+{
+  margin-top: 4%;
+}
+.name-integrante a
+{
+  text-decoration: none;
+}
+
+.img-team
+{
+  width: 100%;
+  height: 100px;
+  margin-top: 7%;
+}
+
+figcaption
+{
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 3%;
+}
+
+figcaption:hover
+{
+  opacity: 0.2;
+}
+
+@media (max-width: 768px)
+{
+  #team-name
+  {
+    height: auto;
+  }
+}
+@media (max-width: 480px)
+{
+  #team-name
+  {
+    height: auto;
+  }
+}
+
+/* CSS do Linhas Programadas */
+#linhas-programadas
+{
+  width: 100%;
+  height: 658px;
+  background: url('../img/linhas-programadas/fundo-linhas.jpg') round;
+}
+#linhas-programadas img
+{
+  margin-top: 40%;
+}
+
+@media (max-width: 480px)
+{
+  #linhas-programadas
+  {
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+  }
+  #linhas-programadas img
+  {
+    margin-top: 50%;
+  }
+}
+
+
+/* CSS social media*/
+#social
+{
+  width: 100%;
+  height: 688px;
+  padding-top: 3%;
+  background-color: #000000;
+}
+#faixa-redes-sociais 
+{
+  height: 100%;
+  background-color: #b21564;
+}
+
+#social h2
+{
+  color: #ffffff;
+  font-size: 1.6em;
+}
+
+#social .circulo
+{
+  width: 100%;
+  height: 280px;
+  padding: 15% 15%;
+  border: solid 5px #008e92;
+  border-radius: 200px;
+}
+
+
+
+/* CSS do Ebook */
+#ebook
+{
+  width: 100%;
+  height: 658px;
+  background: url('../img/ebook/fundo-ebook.png') round scroll;
+}
+
+#ebook .content
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#ebook h1
+{
+  text-align: center;
+  font-size: 65px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 5%;
+}
+
+#ebook p
+{
+  margin-top: 5%;
+  text-align: justify;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+#ebook .btn-ebook
+{
+  background-color: #abcb46;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.0em;
+  
+  border-radius: 5px;
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.btn-ebook:hover, .btn-ebook:focus
+{
+  outline: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px)
+{
+  #ebook h1
+  {
+    text-align: center;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 5%;
+  }
+
+  #ebook p
+  {
+    margin-top: 5%;
+    text-align: justify;
+    font-size: 25px;
+    color: #ffffff;
+  }
+
+  #ebook .btn-ebook
+  {
+    background-color: #abcb46;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.0em;
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 480px)
+{
+  #ebook
+  {
+    width: 100%;
+    height: 558px;
+  }
+  #ebook h1
+  {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 5%;
+  }
+
+  #ebook p
+  {
+    margin-top: 5%;
+    text-align: justify;
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+  #ebook .btn-ebook
+  {
+    background-color: #abcb46;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.0em;
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+  }
+}
+
+
+
+/* CSS da div Pergunta */
+#pergunta
+{
+  width: 100%;
+  height: 658px;
+  background-color: #222325;
+}
+
+#pergunta h1
+{
+  color: #ffffff;
+  margin-top: 22%;
+  font-size: 75px;
+}
+
+#pergunta .img-esfera
+{
+  margin-top: 60%;
+}
+
+.texto-laranja
+{
+  color: #cd6702;
+}
+
+@media (max-width: 480px)
+{
+  #pergunta h1
+  {
+    margin-top: 12%;
+    font-size: 45px;
+  }
+
+  #pergunta .img-esfera
+  {
+     margin-top: 10%;
+  }
+}
+
+
+/* CSS Contato*/
+#contato
+{
+  width: 100%;
+  height: 658px;
+  background: url('../img/contato/fundo-contato.png') round;
+  color: #ffffff;
+}
+
+#contato h1
+{
+  font-size: 3.0em;
+  margin-top: 3%;
+}
+
+#contato label 
+{
+  font-size: 1.3em;
+}
+#contato textarea
+{
+  resize: none;
+}
+
+.btn-enviar
+{
+  background-color: #abcb46;
+  color: #ffffff;
+  border-radius: 2px #ffffff;
+  float: right;
+}
+.btn-enviar:hover
+{
+  color: #ffffff;
+}
+
+
+
+/* CSS Footer */
+#footer
+{
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  padding-top: 3%;
+}
+.footer-info
+{
+  background-color: #222325;
+  padding-top: 10px;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+
+@media (max-width: 480px)
+{
+  .footer-info
+  {
+    font-size: 1.1em;
+  } 
+}
+
+
+
