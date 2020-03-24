@@ -44,13 +44,16 @@ nav ul li a:hover
   text-transform: uppercase;
   background-color: #222325;
 }
-.navbar-custom .navbar-toggle {
-  color: white;
+.navbar-toggler {
+  color: white !important;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
-.navbar-custom .navbar-toggle:focus,
-.navbar-custom .navbar-toggle:active {
+.navbar-toggler-icon{
+  color: #ffffff !important;
+}
+.navbar-custom .navbar-toggler:focus,
+.navbar-custom .navbar-toggler:active {
   outline: none;
 }
 .navbar-custom .navbar-brand {
@@ -62,28 +65,28 @@ nav ul li a:hover
 .navbar-custom a {
   color: white;
 }
-.navbar-custom .nav li a {
+.navbar-nav .nav-item .nav-link{
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
-.navbar-custom .nav li a:hover {
+.nav-item .nav-link:hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
   background-color: transparent;
 }
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
+.nav-item .nav-link:focus,
+.nav-item .nav-link:active {
   outline: none;
   background-color: transparent;
 }
-.navbar-custom .nav li.active {
+.nav-item.active {
   outline: none;
 }
-.navbar-custom .nav li.active a {
+.active .nav-link {
   background-color: rgba(255, 255, 255, 0.3);
 }
-.navbar-custom .nav li.active a:hover {
+.active .nav-link:hover {
   color: white;
 }
 @media (min-width: 768px) {
@@ -547,7 +550,7 @@ figcaption:hover
 #contato
 {
   width: 100%;
-  height: 658px;
+  height: 720px;
   background: url('../img/contato/fundo-contato.png') round;
   color: #ffffff;
 }

@@ -7,16 +7,16 @@
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
     if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $(".fixed-top").addClass("top-nav-collapse");
     } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".fixed-top").removeClass("top-nav-collapse");
     }
 }
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
+$('.navbar-collapse ul .nav-item .nav-link').click(function() {
     $(this).closest('.collapse').collapse('toggle');
 });
 
@@ -47,7 +47,6 @@ $('.navbar-collapse ul li a').click(function() {
 
     $(document).scroll(function() {
         imgTeamAnimate();
-        console.log('teste');/* faz o teste de quantas vezes esta sendo executada o Evento*/
     });
 }());
 
@@ -76,6 +75,5 @@ $(function() {
     $(document).ready(function()
     {
         AjustarHeigth();
-        console.log('testando...');
     });
 }());
