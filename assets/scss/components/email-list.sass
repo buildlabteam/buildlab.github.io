@@ -1,0 +1,116 @@
+.email-list
+    width: 100%
+    background-color: #000000
+
+.comming-soon
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-flow: column
+    position: relative
+    height: 100vh
+
+.comming-soon .circle
+    width: 250px
+    height: 250px
+    background: #000
+    border-radius: 100%
+    -webkit-animation: shadow 2s linear 2s infinite alternate
+    animation: shadow 2s linear 2s infinite alternate
+
+.comming-soon .form-group
+    width: 450px
+    text-align: center
+    position: absolute
+    top: 50%
+
+@media (max-width:991px)
+    .comming-soon .form-group
+        padding-left: 35px
+        padding-right: 35px
+
+
+.comming-soon .form-group .text
+    color: #efefef
+    letter-spacing: 15px
+    font-size: 20px
+
+.comming-soon .form-group label
+    color: #efefef
+    font-size: 15px
+    margin-top: 10px
+    margin-bottom: 40px
+
+.comming-soon .form-group .input-group
+    width: 100%
+
+.comming-soon .form-group .input-group input
+    border-radius: 15px 0px 0px 15px
+    background: rgba(255, 255, 255, 0)
+    border-color: rgba(1, 64, 66, 0.486)
+    padding-left: 15px
+    color: rgba(255, 255, 255, 0.75)
+
+.comming-soon .form-group .input-group input:focus
+    box-shadow: none !important
+    border-color: #008e92 !important
+    color: white
+
+.comming-soon .form-group .input-group .input-group-text
+    border-radius: 0px
+    margin-top: -1px
+    padding: 0px
+    border: none
+    background: transparent
+
+.comming-soon .form-group .input-group .input-group-text button
+    border: 1px solid black
+    border-radius: 0px 15px 15px 0px
+    background: #008e92
+    padding: 7px 20px
+    color: #fff
+    font-weight: normal
+    letter-spacing: 2px
+
+.comming-soon .form-group .input-group .input-group-text button:hover
+    cursor: pointer
+    background: #015c61
+
+.comming-soon .form-group .input-group .input-group-text button:focus
+    box-shadow: none !important
+    outline: none !important
+
+@-webkit-keyframes shadow
+    0%
+        box-shadow: 0px -3px 2px #ffec06
+
+    25%
+        box-shadow: 0px -6px 4px #ffec06
+
+    50%
+        box-shadow: 0px -9px 6px #ffec06
+
+    75%
+        box-shadow: 0px -12px 8px #ffec06
+
+    100%
+        box-shadow: 0px -15px 10px #ffec06
+
+
+@keyframes shadow
+    0%
+        box-shadow: 0px -3px 2px #ffec06
+
+    25%
+        box-shadow: 0px -6px 4px #ffec06
+
+    50%
+        box-shadow: 0px -9px 6px #ffec06
+
+    75%
+        box-shadow: 0px -12px 8px #ffec06
+
+    100%
+        box-shadow: 0px -15px 10px #ffec06
+
+

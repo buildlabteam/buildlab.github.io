@@ -1,0 +1,109 @@
+/* ----CSS Header-----*/
+header
+  /*background: url('../img/foto-principal.jpg') round scroll*/
+  width: 100%
+  height: 658px
+  video
+    width: 100%
+.background-video 
+  position: fixed
+  z-index: -1000
+  width: 100%
+  height: 100%
+  overflow: hidden
+  top: 0
+  left: 0
+
+#video-bg-elem 
+  position: fixed
+  top: 0
+  left: 0
+  min-height: 100%
+  min-width: 100%
+
+.content 
+  position: absolute
+  width: 100%
+  min-height: 658px
+  z-index: 1000
+  background-color: rgba(0, 0, 0, 0.7)
+.content h1 
+  text-align: center
+  font-size: 65px
+  text-transform: uppercase
+  font-weight: 300
+  color: #ffffff
+  padding-top: 15%
+  margin-bottom: 10px
+
+.btn-header
+  /*background-color: #666*/
+  color: #FFFFFF
+  text-align: center
+  font-size: 2.0em
+  border: solid 2px #ffffff
+  border-radius: 5px
+  width: 100%
+  height: 60px
+  margin-top: 20px 
+  background: transparent
+
+.btn-header:hover, .btn-header:focus
+  outline: none
+  color: white
+  background: rgba(255, 255, 255, 0.1)
+
+/* Esse media-query é valor maximo até o video ficar com bordas*/
+@media (max-width: 1220px) 
+  header
+    width: 100%
+    height: 688px
+    background: url('../img/op.png') round !important
+
+
+  .background-video
+    display: none !important
+
+
+  .content
+    min-height: 688px
+
+  
+  .content h1 
+    font-size: 55px
+
+
+@media (max-width: 768px)
+  header
+    width: 100%
+    height: 688px
+    background: url('../img/op.png') round !important
+
+
+  .background-video 
+    display: none !important
+
+
+  .content
+    min-height: 688px
+
+  
+  .content h1 
+    font-size: 55px
+    padding-top: 30%
+
+
+@media (max-width: 480px)
+  header
+    width: 100%
+    height: 588px
+
+  header .content
+    width: 100%
+    min-height: 588px
+    padding-top: 20%
+
+
+  .content h1 
+    font-size: 50px
+    padding-top: 23%
