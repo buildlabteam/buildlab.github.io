@@ -1,8 +1,0 @@
-[07-Dec-2017 09:28:00 America/Chicago] PHP Warning:  require_once(class/Cliente.php): failed to open stream: No such file or directory in /home/build192/public_html/bl_admin/arquivosPdf/1512660473.php on line 3
-[07-Dec-2017 09:28:00 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'class/Cliente.php' (include_path='.:/opt/php56/lib/php') in /home/build192/public_html/bl_admin/arquivosPdf/1512660473.php on line 3
-[07-Dec-2017 09:29:16 America/Chicago] PHP Warning:  require_once(class/Cliente.php): failed to open stream: No such file or directory in /home/build192/public_html/bl_admin/arquivosPdf/1512660473.php on line 3
-[07-Dec-2017 09:29:16 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'class/Cliente.php' (include_path='.:/opt/php56/lib/php') in /home/build192/public_html/bl_admin/arquivosPdf/1512660473.php on line 3
-[07-Dec-2017 09:30:11 America/Chicago] PHP Warning:  require_once(class/Cliente.php): failed to open stream: No such file or directory in /home/build192/public_html/bl_admin/arquivosPdf/1512660473.php on line 3
-[07-Dec-2017 09:30:11 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'class/Cliente.php' (include_path='.:/opt/php56/lib/php') in /home/build192/public_html/bl_admin/arquivosPdf/1512660473.php on line 3
-[08-Dec-2017 14:19:39 America/Sao_paulo] PHP Warning:  require_once(class/Cliente.php): failed to open stream: No such file or directory in /home/build192/public_html/bl_admin/arquivosPdf/1512660473.php on line 3
-[08-Dec-2017 14:19:39 America/Sao_paulo] PHP Fatal error:  require_once(): Failed opening required 'class/Cliente.php' (include_path='.:/opt/php56/lib/php') in /home/build192/public_html/bl_admin/arquivosPdf/1512660473.php on line 3
