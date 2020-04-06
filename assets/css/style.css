@@ -123,11 +123,7 @@ header {
   width: 100%;
   height: 658px;
 }
-header video {
-  width: 100%;
-}
-
-.background-video {
+header .background-video {
   position: fixed;
   z-index: -1000;
   width: 100%;
@@ -136,24 +132,24 @@ header video {
   top: 0;
   left: 0;
 }
-
-#video-bg-elem {
+header .background-video video {
+  width: 100%;
+}
+header .background-video #video-bg-elem {
   position: fixed;
   top: 0;
   left: 0;
   min-height: 100%;
   min-width: 100%;
 }
-
-.content {
+header .content {
   position: absolute;
   width: 100%;
   min-height: 658px;
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.7);
 }
-
-.content h1 {
+header .content h1 {
   text-align: center;
   font-size: 65px;
   text-transform: uppercase;
@@ -162,8 +158,7 @@ header video {
   padding-top: 15%;
   margin-bottom: 10px;
 }
-
-.btn-header {
+header .btn-header {
   /*background-color: #666*/
   color: #FFFFFF;
   text-align: center;
@@ -175,8 +170,7 @@ header video {
   margin-top: 20px;
   background: transparent;
 }
-
-.btn-header:hover, .btn-header:focus {
+header .btn-header:hover, header .btn-header:focus {
   outline: none;
   color: white;
   background: rgba(255, 255, 255, 0.1);
@@ -189,16 +183,13 @@ header video {
     height: 688px;
     background: url("../img/op.png") round !important;
   }
-
-  .background-video {
+  header .background-video {
     display: none !important;
   }
-
-  .content {
+  header .content {
     min-height: 688px;
   }
-
-  .content h1 {
+  header .content h1 {
     font-size: 55px;
   }
 }
@@ -208,16 +199,13 @@ header video {
     height: 688px;
     background: url("../img/op.png") round !important;
   }
-
-  .background-video {
+  header .background-video {
     display: none !important;
   }
-
-  .content {
+  header .content {
     min-height: 688px;
   }
-
-  .content h1 {
+  header .content h1 {
     font-size: 55px;
     padding-top: 30%;
   }
@@ -227,14 +215,12 @@ header video {
     width: 100%;
     height: 588px;
   }
-
   header .content {
     width: 100%;
     min-height: 588px;
     padding-top: 20%;
   }
-
-  .content h1 {
+  header .content h1 {
     font-size: 50px;
     padding-top: 23%;
   }
