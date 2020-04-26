@@ -5,7 +5,7 @@ header
   height: 658px
   .background-video 
     position: fixed
-    z-index: -1000
+    z-index: -100
     width: 100%
     height: 100%
     overflow: hidden
@@ -32,7 +32,7 @@ header
     text-transform: uppercase
     font-weight: 300
     color: #ffffff
-    padding-top: 15%
+    padding-top: 18%
     margin-bottom: 10px
 
   .btn-header
@@ -42,13 +42,14 @@ header
     font-size: 2.0em
     border: solid 2px #ffffff
     border-radius: 5px
-    width: 100%
-    height: 60px
+    padding: 10px 40px
     margin-top: 20px 
     background: transparent
+    opacity: 0.9
 
   .btn-header:hover, .btn-header:focus
     outline: none
+    opacity: 1.0
     color: white
     background: rgba(255, 255, 255, 0.1)
 
@@ -68,15 +69,24 @@ header
 @media (max-width: 768px)
   header
     width: 100%
-    height: 688px
+    height: 488px
     background: url('../img/op.png') round !important
     .background-video 
       display: none !important
     .content
       min-height: 688px
     .content h1 
-      font-size: 55px
+      font-size: 34px
       padding-top: 30%
+    .btn-header
+      /*background-color: #666*/
+      color: #FFFFFF
+      text-align: center
+      font-size: 1.2em
+      border: solid 2px #ffffff
+      border-radius: 5px
+      margin-top: 20px 
+      background: transparent
 
 @media (max-width: 480px)
   header
@@ -87,5 +97,5 @@ header
       min-height: 588px
       padding-top: 20%
     .content h1 
-      font-size: 50px
+      font-size: 24px
       padding-top: 23%
