@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "Saira Semi Condensed";
-  src: url("../fonts/SairaSemiCondensed-Regular.ttf");
+  font-family: "MadeTommySoft";
+  src: url("../fonts/made_tommy_soft/MADETommySoft-Regular.otf");
 }
 html, body {
-  font-family: "Saira Semi Condensed", sans-serif;
+  font-family: "MadeTommySoft", sans-serif;
   background: #000000;
   margin: 0;
   padding: 0;
@@ -351,10 +351,12 @@ header .btn-header:hover, header .btn-header:focus {
 .our-team {
   padding: 30px 0 40px;
   margin-bottom: 30px;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
   text-align: center;
   overflow: hidden;
   position: relative;
+  border-radius: 2px;
 }
 
 .our-team .picture {
