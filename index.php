@@ -57,10 +57,7 @@
 						<a class="page-scroll nav-link" href="#team">TEAM</a>
 					</li>
 					<li class="nav-item">
-						<a class="page-scroll nav-link" href="https://buildlab.com.br/aprenda-a-programar/" target="_blank">ACADEMY</a>
-					</li>
-					<li class="nav-item">
-						<a class="page-scroll nav-link" href="#">BUILDLAB</a>
+						<a class="page-scroll nav-link" href="#social-media">SOCIAL</a>
 					</li>
 					<li class="nav-item">
 						<a class="page-scroll nav-link" href="#contato">CONTATO</a>
@@ -240,6 +237,70 @@
 		</div>
 	</div>
 
+	<!-- NEWSLETTER -->
+	<!--<div class="container-fluid email-list" id="newsletter">
+		<div class="row">
+			<div class="col">
+				<div class="comming-soon">
+					<div class="circle"></div>
+					<div class="form-group">
+						<p class="text">CONECTAR</p>
+						<label>FAÇA PARTE DA NOSSA REDE</label>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Seu melhor e-mail">
+							<div class="input-group-append">
+								<span class="input-group-text" id="basic-addon2">
+									<button>Enviar</button>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>-->
+	<!---->
+
+	<!-- SOCIAL MEDIA -->
+	<div id="social-media" class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<center>
+					<h2 class="title-social-media">Redes Sociais</h2>
+				</center>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-12 d-flex flex-row justify-content-center">
+				<a href="https://discordapp.com/invite/HZEZePH" target="_blank">
+					<div class="icone-social">
+						<i class="fab fa-discord"></i>
+						<h4 class="title">Comunidade</h4>
+					</div>
+				</a>
+				<a href="https://instagram.com/build_lab" target="_blank">
+					<div class="icone-social">
+						<i class="fab fa-instagram"></i>
+						<h4 class="title">Instagram</h4>
+					</div>
+				</a>
+				<a href="https://linkedin.com/in/buildlab" target="_blank">
+					<div class="icone-social">
+						<i class="fab fa-linkedin"></i>
+						<h4 class="title">LinkedIn</h4>
+					</div>
+				</a>
+				<a href="https://www.youtube.com/channel/UCPcuN8BKtpkYQg0z6petI7w" target="_blank">
+					<div class="icone-social">
+						<i class="fab fa-youtube"></i>
+						<h4 class="title">Youtube</h4>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
 	<!-- CONTATO -->
 	<div id="contato" class="container-fluid">
 		<div class="row-fluid">
@@ -296,70 +357,6 @@
 		</div>
 	</div>
 
-	<div id="social-media" class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<center>
-					<h2 class="title-social-media">Redes Sociais</h2>
-				</center>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-12 col-sm-6 col-md-12 d-flex flex-row justify-content-center">
-				<a href="https://discordapp.com/invite/HZEZePH" target="_blank">
-					<div class="icone-social">
-						<i class="fab fa-discord"></i>
-						<h4 class="title">Comunidade</h4>
-					</div>
-				</a>
-				<a href="https://instagram.com/build_lab" target="_blank">
-					<div class="icone-social">
-						<i class="fab fa-instagram"></i>
-						<h4 class="title">Instagram</h4>
-					</div>
-				</a>
-				<a href="https://linkedin.com/in/buildlab" target="_blank">
-					<div class="icone-social">
-						<i class="fab fa-linkedin"></i>
-						<h4 class="title">LinkedIn</h4>
-					</div>
-				</a>
-				<a href="https://www.youtube.com/channel/UCPcuN8BKtpkYQg0z6petI7w" target="_blank">
-					<div class="icone-social">
-						<i class="fab fa-youtube"></i>
-						<h4 class="title">Youtube</h4>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
-
-	<!-- NEWSLETTER -->
-	<div class="container-fluid email-list" id="newsletter">
-		<div class="row">
-			<div class="col">
-				<div class="comming-soon">
-					<div class="circle"></div>
-					<div class="form-group">
-						<p class="text">CONECTAR</p>
-						<label>FAÇA PARTE DA NOSSA REDE</label>
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Seu melhor e-mail">
-							<div class="input-group-append">
-								<span class="input-group-text" id="basic-addon2">
-									<button>Enviar</button>
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!---->
-
-
 	<!-- FOOTER -->
 	<footer class="site-footer">
 		<div class="container ">
@@ -372,10 +369,10 @@
 				<div class="col-xs-6 col-md-3">
 					<h6>About us</h6>
 					<ul class="footer-links ">
-						<li><a href="https://gowinners.com.br/portfolio/nosso-diferencial/">Nosso Diferencial</a></li>
-						<li><a href="https://gowinners.com.br/portfolio/go-winners-in-company/">In Company</a></li>
-						<li><a href="https://gowinners.com.br/portfolio/projetos-desenvolvidos/">Projetos</a></li>
-						<li><a href="https://gowinners.com.br/portfolio/indicadores-do-gowinners/">Indicadores</a></li>
+						<li><a href="https://academy.buildlab.com.br">Academy</a></li>
+						<li><a href="https://blog.buildlab.com.br">Blog</a></li>
+						<li><a href="">Content</a></li>
+						<li><a href="">Mais+</a></li>
 					</ul>
 				</div>
 
@@ -384,7 +381,6 @@
 					<ul class="footer-links ">
 						<li><a href="#">Sobre</a></li>
 						<li><a href="#">Contato</a></li>
-						<li><a href="#">Políticas de Privacidade</a></li>
 					</ul>
 				</div>
 			</div>
