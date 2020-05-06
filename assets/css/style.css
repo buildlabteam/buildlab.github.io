@@ -245,6 +245,12 @@ header .btn-header:hover, header .btn-header:focus {
   background-color: #0f0f0f;
   padding: 0px 80px;
 }
+#social-media a {
+  text-decoration: none;
+}
+#social-media a:hover {
+  text-decoration: none !important;
+}
 
 #social-media .title-social-media {
   letter-spacing: 5px;

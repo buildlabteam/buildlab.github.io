@@ -319,13 +319,13 @@
 						<h4 class="title">Instagram</h4>
 					</div>
 				</a>
-				<a href="https://www.youtube.com/channel/UCPcuN8BKtpkYQg0z6petI7w" target="_blank">
+				<a href="https://linkedin.com/in/buildlab" target="_blank">
 					<div class="icone-social">
 						<i class="fab fa-linkedin"></i>
 						<h4 class="title">LinkedIn</h4>
 					</div>
 				</a>
-				<a href="https://linkedin.com/in/buildlab" target="_blank">
+				<a href="https://www.youtube.com/channel/UCPcuN8BKtpkYQg0z6petI7w" target="_blank">
 					<div class="icone-social">
 						<i class="fab fa-youtube"></i>
 						<h4 class="title">Youtube</h4>
