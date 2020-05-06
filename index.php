@@ -252,25 +252,46 @@
 				<form method="POST">
 					<div class="form-group">
 						<label for="txtNome">Nome: </label>
-						<input type="text" id="txtNome" class="form-control" placeholder="Digite seu nome.">
+						<input type="text" id="txtNome" required name="name" class="form-control" placeholder="Digite seu nome.">
 					</div>
 					<div class="form-group">
 						<label for="txtEmail">Email:</label>
-						<input type="email" id="txtEmail" class="form-control" placeholder="exemplo@exemplo.com">
+						<input type="email" id="txtEmail" required name="email" class="form-control" placeholder="exemplo@exemplo.com">
 					</div>
 					<div class="form-group">
 						<label for="txtAssunto">Assunto:</label>
-						<input type="text" id="txtAssunto" class="form-control" placeholder="Sobre o que quer falar?">
+						<input type="text" id="txtAssunto" required name="assunto" class="form-control" placeholder="Sobre o que quer falar?">
 					</div>
 					<div class="form-group">
 						<label for="">Mensagem:</label>
-						<textarea id="txtMensagem" id="text-area" cols="30" rows="3" class="form-control"
+						<textarea id="txtMensagem" id="text-area" required name="mensagem" cols="30" rows="3" class="form-control"
 							placeholder="Escreva sua mensagem aqui."></textarea>
 					</div>
 					<button type="submit" class="btn btn-enviar btn-md">Enviar <span class="icon-enviar"><i
 								class="fas fa-check"></i></span></button>
 				</form>
-			</div>
+      </div>
+      <?php
+        if ($_POST) {
+          $name = filter_input(INPUT_POST, 'name');
+          $email = filter_input(INPUT_POST, 'email');
+          $assunto = filter_input(INPUT_POST, 'assunto');
+          $mensagem = filter_input(INPUT_POST, 'mensagem');
+
+          $array = ['name' => $name, 'email' => $email, 'assunto' => $assunto, 'mensagem' => $mensagem];
+
+          $json_filename = 'contacts.json';
+          $old_json = file_get_contents($json_filename);
+          $old_data = json_decode($old_json);
+          if ($old_data == null) {
+            $old_data = array();
+          }
+          $new_data = array_push($old_data, $array);
+          $new_json = json_encode($old_data);
+          file_put_contents($json_filename, $new_json);
+          echo "<script>alert('Mensagem registrada! Obrigado.')</script>";
+        }
+      ?>
 			<!-- .col-md-5 -->
 		</div>
 	</div>
@@ -286,22 +307,30 @@
 
 		<div class="row">
 			<div class="col-12 col-sm-6 col-md-12 d-flex flex-row justify-content-center">
-				<div class="icone-social">
-					<i class="fab fa-discord"></i>
-					<h4 class="title">Comunidade</h4>
-				</div>
-				<div class="icone-social">
-					<i class="fab fa-instagram"></i>
-					<h4 class="title">Instagram</h4>
-				</div>
-				<div class="icone-social">
-					<i class="fab fa-linkedin"></i>
-					<h4 class="title">LinkedIn</h4>
-				</div>
-				<div class="icone-social">
-					<i class="fab fa-youtube"></i>
-					<h4 class="title">Youtube</h4>
-				</div>
+				<a href="https://discordapp.com/invite/HZEZePH" target="_blank">
+					<div class="icone-social">
+						<i class="fab fa-discord"></i>
+						<h4 class="title">Comunidade</h4>
+					</div>
+				</a>
+				<a href="https://instagram.com/build_lab" target="_blank">
+					<div class="icone-social">
+						<i class="fab fa-instagram"></i>
+						<h4 class="title">Instagram</h4>
+					</div>
+				</a>
+				<a href="https://www.youtube.com/channel/UCPcuN8BKtpkYQg0z6petI7w" target="_blank">
+					<div class="icone-social">
+						<i class="fab fa-linkedin"></i>
+						<h4 class="title">LinkedIn</h4>
+					</div>
+				</a>
+				<a href="https://linkedin.com/in/buildlab" target="_blank">
+					<div class="icone-social">
+						<i class="fab fa-youtube"></i>
+						<h4 class="title">Youtube</h4>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
