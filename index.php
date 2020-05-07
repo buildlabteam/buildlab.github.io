@@ -69,11 +69,6 @@
 		<!-- .container-fluid -->
 	</nav>
 	<header>
-		<div class="background-video">
-			<video id="video-bg-elem" preload="auto" autoplay loop muted>
-				<source src="assets/video/back-video.mp4" type="video/mp4">
-			</video>
-		</div>
 		<div class="content">
 			<div id="typed-strings">
 				<p><span>Conecte-se ao nosso mundo!</span></p>
@@ -375,7 +370,7 @@
 				</div>
 
 				<div class="col-xs-6 col-md-3">
-					<h6>Conecte</h6>
+					<h6>Conecte-se</h6>
 					<ul class="footer-links ">
 						<li><a class="page-scroll" href="https://buildlab.com.br/#social-media">Sobre</a></li>
 						<li><a class="page-scroll" href="https://buildlab.com.br/#contato">Contato</a></li>
@@ -392,12 +387,12 @@
 
 				<div class="col-md-4 col-sm-6 col-xs-12 ">
 					<ul class="social-icons ">
-						<li><a href="https://discordapp.com/invite/HZEZePH" target="_blank"><i class="fab fa-discord"></i></a></li>
 						<li>
 							<a href="https://instagram.com/build_lab" target="_blank"> <i class="fab fa-instagram"></i></a>
 						</li>
-						<li><a href="https://www.youtube.com/channel/UCPcuN8BKtpkYQg0z6petI7w" target="_blank"><i class="fab fa-youtube"></i></a></li>
 						<li><a href="https://linkedin.com/in/buildlab" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="https://blog.buildlab.com.br" target="_blank"><i class="fas fa-window-maximize"></i></a></li>
+						<li><a href="https://buildlab.com.br" target="_blank"><i class="fas fa-globe-americas"></i></a></li>
 					</ul>
 				</div>
 			</div>
