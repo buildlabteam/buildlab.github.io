@@ -245,6 +245,13 @@ header .btn-header:hover, header .btn-header:focus {
   background-color: #0f0f0f;
   padding: 0px 80px;
 }
+@media (max-width: 480px) {
+  #social-media {
+    height: 788px;
+    align-items: center;
+    padding: 0px 20px;
+  }
+}
 #social-media a {
   text-decoration: none;
 }
@@ -274,17 +281,27 @@ header .btn-header:hover, header .btn-header:focus {
   margin-top: 100px;
   margin-right: 40px;
 }
+@media (max-width: 480px) {
+  .icone-social {
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+  }
+}
 .icone-social:hover {
   cursor: pointer;
   border-top: 5px solid #008e92;
+}
+.icone-social:hover i {
+  color: #008e92;
+}
+.icone-social:hover .title {
+  color: #008e92;
 }
 .icone-social i {
   font-size: 4em !important;
   color: #4e5052;
   margin-bottom: 15px;
-}
-.icone-social i .fab.fa-discord:hover {
-  border-top: 5px solid #640092;
 }
 
 .icone-social .title {

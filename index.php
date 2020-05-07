@@ -272,28 +272,28 @@
 		</div>
 
 		<div class="row">
-			<div class="col-12 col-sm-6 col-md-12 d-flex flex-row justify-content-center">
+			<div class="col-12 col-sm-6 col-md-12 d-flex flex-md-row flex-column justify-content-center align-items-center">
 				<a href="https://discordapp.com/invite/HZEZePH" target="_blank">
 					<div class="icone-social">
-						<i class="fab fa-discord"></i>
+						<i class="fab fa-discord" id="icon-discord"></i>
 						<h4 class="title">Comunidade</h4>
 					</div>
 				</a>
 				<a href="https://instagram.com/build_lab" target="_blank">
 					<div class="icone-social">
-						<i class="fab fa-instagram"></i>
+						<i class="fab fa-instagram" id="icon-instagram"></i>
 						<h4 class="title">Instagram</h4>
 					</div>
 				</a>
 				<a href="https://linkedin.com/in/buildlab" target="_blank">
 					<div class="icone-social">
-						<i class="fab fa-linkedin"></i>
+						<i class="fab fa-linkedin" id="icon-linkedin"></i>
 						<h4 class="title">LinkedIn</h4>
 					</div>
 				</a>
 				<a href="https://www.youtube.com/channel/UCPcuN8BKtpkYQg0z6petI7w" target="_blank">
 					<div class="icone-social">
-						<i class="fab fa-youtube"></i>
+						<i class="fab fa-youtube" id="icon-youtube"></i>
 						<h4 class="title">Youtube</h4>
 					</div>
 				</a>
@@ -367,20 +367,18 @@
 				</div>
 
 				<div class="col-xs-6 col-md-3">
-					<h6>About us</h6>
+					<h6>Mais+</h6>
 					<ul class="footer-links ">
-						<li><a href="https://academy.buildlab.com.br">Academy</a></li>
-						<li><a href="https://blog.buildlab.com.br">Blog</a></li>
-						<li><a href="">Content</a></li>
-						<li><a href="">Mais+</a></li>
+						<li><a href="https://blog.buildlab.com.br" target="_blank">Blog</a></li>
+						<li><a href="https://buildlab.com.br/aprenda-a-programar" target="_blank">Academy</a></li>
 					</ul>
 				</div>
 
 				<div class="col-xs-6 col-md-3">
-					<h6>BUILDLAB</h6>
+					<h6>Conecte</h6>
 					<ul class="footer-links ">
-						<li><a href="#">Sobre</a></li>
-						<li><a href="#">Contato</a></li>
+						<li><a class="page-scroll" href="https://buildlab.com.br/#social-media">Sobre</a></li>
+						<li><a class="page-scroll" href="https://buildlab.com.br/#contato">Contato</a></li>
 					</ul>
 				</div>
 			</div>
