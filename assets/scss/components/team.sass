@@ -2,6 +2,8 @@
 .team
   background-color: rgb(15, 15, 15)
   padding: 0px 80px
+  @media (max-width: 680px)
+    padding: 0px 90px
 
 .title-team
   letter-spacing: 5px
@@ -10,6 +12,10 @@
   padding-bottom: 2%
   text-transform: uppercase
   color: white
+  @media (max-width: 680px)
+    font-size: 20pt
+    margin-top: 40px
+    margin-bottom: 35px
 
 .our-team
   padding: 30px 0 40px
@@ -28,6 +34,10 @@
   margin-bottom: 50px
   z-index: 1
   position: relative
+  @media (max-width: 680px)
+    width: 100px
+    height: 100px
+    margin-bottom: 30px
 
 .our-team .picture::before
   content: ""
@@ -62,7 +72,7 @@
   height: auto
   border-radius: 50%
   transform: scale(1)
-  transition: all 0.9s ease 0s
+  transition: all 0.9s ease 0s  
 
 .our-team:hover .picture img
   box-shadow: 0 0 0 14px #f7f5ec
@@ -73,6 +83,8 @@
   font-size: 15px
   color: #4e5052
   text-transform: capitalize
+  @media (max-width: 680px)
+    font-size: 12px
 
 .our-team .social
   width: 100%
@@ -101,3 +113,6 @@
 .our-team .social li a:hover
   color: black
   background-color: #008e92
+
+.our-team .team-content .name
+  font-size: 18px

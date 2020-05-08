@@ -261,19 +261,19 @@
 		<div class="row">
 			<div class="col-md-12">
 				<center>
-					<h2 class="title-social-media">Redes Sociais</h2>
+					<h2 class="title-social-media">Social</h2>
 				</center>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12 col-sm-6 col-md-12 d-flex flex-md-row flex-column justify-content-center align-items-center">
-				<a href="https://discordapp.com/invite/HZEZePH" target="_blank">
+				<!--<a href="https://discordapp.com/invite/HZEZePH" target="_blank">
 					<div class="icone-social">
 						<i class="fab fa-discord" id="icon-discord"></i>
 						<h4 class="title">Comunidade</h4>
 					</div>
-				</a>
+				</a>-->
 				<a href="https://instagram.com/build_lab" target="_blank">
 					<div class="icone-social">
 						<i class="fab fa-instagram" id="icon-instagram"></i>
@@ -286,10 +286,10 @@
 						<h4 class="title">LinkedIn</h4>
 					</div>
 				</a>
-				<a href="https://www.youtube.com/channel/UCPcuN8BKtpkYQg0z6petI7w" target="_blank">
+				<a href="https://facebook.com/build_lab" target="_blank">
 					<div class="icone-social">
-						<i class="fab fa-youtube" id="icon-youtube"></i>
-						<h4 class="title">Youtube</h4>
+						<i class="fab fa-facebook-square" id="icon-youtube"></i>
+						<h4 class="title">Facebook</h4>
 					</div>
 				</a>
 			</div>

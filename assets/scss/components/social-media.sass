@@ -6,9 +6,9 @@
   background-color: rgb(15, 15, 15)
   padding: 0px 80px
   @media (max-width: 480px)
-    height: 788px
+    height: 588px
     align-items: center
-    padding: 0px 20px
+    padding: 0px 20px !important
   a
     text-decoration: none
     &:hover
@@ -38,6 +38,7 @@
     width: 150px
     height: 150px
     margin-top: 15px
+    margin-right: 0px
   &:hover
     cursor: pointer
     border-top: 5px solid #008e92
@@ -50,6 +51,9 @@
     font-size: 4.0em !important
     color: #4e5052
     margin-bottom: 15px
+    @media screen and ( max-width: 480px)
+      font-size: 3.0em !important
+      
 
 .icone-social .title
   display: block

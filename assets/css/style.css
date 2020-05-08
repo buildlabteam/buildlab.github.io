@@ -175,8 +175,8 @@ header .btn-header:hover, header .btn-header:focus {
 @media (max-width: 768px) {
   header {
     width: 100%;
-    height: 488px;
-    background: url("../img/op.png") round !important;
+    height: 388px;
+    background: rgba(0, 0, 0, 0.7);
   }
   header .content {
     min-height: 688px;
@@ -221,9 +221,9 @@ header .btn-header:hover, header .btn-header:focus {
 }
 @media (max-width: 480px) {
   #social-media {
-    height: 788px;
+    height: 588px;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 20px !important;
   }
 }
 #social-media a {
@@ -260,6 +260,7 @@ header .btn-header:hover, header .btn-header:focus {
     width: 150px;
     height: 150px;
     margin-top: 15px;
+    margin-right: 0px;
   }
 }
 .icone-social:hover {
@@ -277,6 +278,11 @@ header .btn-header:hover, header .btn-header:focus {
   color: #4e5052;
   margin-bottom: 15px;
 }
+@media screen and (max-width: 480px) {
+  .icone-social i {
+    font-size: 3em !important;
+  }
+}
 
 .icone-social .title {
   display: block;
@@ -291,6 +297,11 @@ header .btn-header:hover, header .btn-header:focus {
   height: 658px;
   background: url("../img/contato/fundo-contato.png") round;
   color: #ffffff;
+}
+@media screen and (max-width: 480px) {
+  #contato {
+    padding-top: 20px;
+  }
 }
 
 #contato input {
@@ -373,6 +384,11 @@ header .btn-header:hover, header .btn-header:focus {
   background-color: #0f0f0f;
   padding: 0px 80px;
 }
+@media (max-width: 680px) {
+  .team {
+    padding: 0px 90px;
+  }
+}
 
 .title-team {
   letter-spacing: 5px;
@@ -381,6 +397,13 @@ header .btn-header:hover, header .btn-header:focus {
   padding-bottom: 2%;
   text-transform: uppercase;
   color: white;
+}
+@media (max-width: 680px) {
+  .title-team {
+    font-size: 20pt;
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
 }
 
 .our-team {
@@ -401,6 +424,13 @@ header .btn-header:hover, header .btn-header:focus {
   margin-bottom: 50px;
   z-index: 1;
   position: relative;
+}
+@media (max-width: 680px) {
+  .our-team .picture {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
 }
 
 .our-team .picture::before {
@@ -453,6 +483,11 @@ header .btn-header:hover, header .btn-header:focus {
   color: #4e5052;
   text-transform: capitalize;
 }
+@media (max-width: 680px) {
+  .our-team .title {
+    font-size: 12px;
+  }
+}
 
 .our-team .social {
   width: 100%;
@@ -485,6 +520,10 @@ header .btn-header:hover, header .btn-header:focus {
 .our-team .social li a:hover {
   color: black;
   background-color: #008e92;
+}
+
+.our-team .team-content .name {
+  font-size: 18px;
 }
 
 .email-list {
