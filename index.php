@@ -390,7 +390,7 @@
 						<li>
 							<a href="https://instagram.com/build_lab" target="_blank"> <i class="fab fa-instagram"></i></a>
 						</li>
-						<li><a href="https://linkedin.com/in/buildlab" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/build-lab/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 						<li><a href="https://blog.buildlab.com.br" target="_blank"><i class="fas fa-window-maximize"></i></a></li>
 						<li><a href="https://buildlab.com.br" target="_blank"><i class="fas fa-globe-americas"></i></a></li>
 					</ul>
