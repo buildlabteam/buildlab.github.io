@@ -47,17 +47,20 @@
 			</a>
 			<button type="button" class="navbar-toggler btn-navbar" data-toggle="collapse" data-target="#navbar-main-collapse"
 				aria-expanded="false" aria-controls="#navbar-main-collapse" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbar-main-collapse">
 				<ul class="navbar-nav ml-auto">
 					<!-- .ml-auto deixa alinhado a direita-->
 					<li class="nav-item">
-						<a class="page-scroll nav-link" href="#team">TEAM</a>
+						<a class="page-scroll nav-link" href="#sobre">SOBRE</a>
 					</li>
 					<li class="nav-item">
-						<a class="page-scroll nav-link" href="#social-media">SOCIAL</a>
+						<a class="page-scroll nav-link" href="#skills">SKILLS</a>
+					</li>
+					<li class="nav-item">
+						<a class="page-scroll nav-link" href="#team">SQUAD</a>
 					</li>
 					<li class="nav-item">
 						<a class="page-scroll nav-link" href="#contato">CONTATO</a>
@@ -75,17 +78,57 @@
 			</div>
 			<h1><span id="typed"></span></h1> <!-- Procurar pelo cursos do typed.js -->
 			<div class="col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-8 offset-xs-2 d-flex justify-content-center">
-				<a class="page-scroll" href="#team"><button type="button" class="btn-header">saiba mais</button></a>
+				<a class="page-scroll" href="#sobre"><button type="button" class="btn-header">conectar <i class="fa fa-angle-down"></i></button></a>
 			</div>
 		</div>
 	</header>
+
+<!-- SKILSS -->
+	<div id="skills" class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<center>
+					<h2 class="title-skills">SKILLS</h2>
+				</center>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-12 d-flex flex-md-row flex-column justify-content-center align-items-center">
+				<div class="card" id="card-web">
+					<div class="content">
+						<h4 class="card-title"><b>Web</b></h4>
+						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+					</div>
+				</div>
+				<div class="card" id="card-mobile">
+					<div class="content">
+						<h4 class="card-title"><b>Mobile</b></h4>
+						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+					</div>
+				</div>
+				<div class="card" id="card-ui">
+					<div class="content">
+						<h4 class="card-title"><b>UI Design</b></h4>
+						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+					</div>
+				</div>
+				<div class="card" id="card-api">
+					<div class="content">
+						<h4 class="card-title"><b>API's</b></h4>
+						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
 
 	<!-- TEAM -->
 	<div class="container-fluid team" id="team">
 		<div class="row">
 			<div class="col-md-12">
 				<center>
-					<h2 class="title-team">Nosso time</h2>
+					<h2 class="title-team">Squad</h2>
 				</center>
 			</div>
 		</div>
@@ -231,6 +274,30 @@
 			</div>
 		</div>
 	</div>
+	<!-- Conectados -->
+	<div id="conectados" class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<center>
+					<h2 class="title-conectados">Conectados</h2>
+				</center>
+			</div>
+		</div>
+
+		<div class="row d-flex justify-content-center align-items-center">
+			<div class="col-2 conectados-img">
+				<a href="https://sparkdesignthinking.com.br/" target="_blank"><img src="assets/img/conectados/spark.png" alt="" id="logo-spark"></a>
+			</div>
+			<div class="col-2 conectados-img">
+				<a href="https://gowinners.com.br/" target="_blank"><img src="assets/img/conectados/gowinners.png" alt="" id="logo-gowinners"></a>
+			</div>
+			<div class="col-2 conectados-img">
+				<a href="https://www.brflor.com.br/" target="_blank"><img src="assets/img/conectados/brflor.png" alt="" id="logo-brflor"></a>
+			</div>
+			<div class="col-12 col-sm-6 col-md-12 d-flex flex-md-row flex-column justify-content-center align-items-center">
+			</div>
+		</div>
+	</div>
 
 	<!-- NEWSLETTER -->
 	<!--<div class="container-fluid email-list" id="newsletter">
@@ -372,7 +439,9 @@
 				<div class="col-xs-6 col-md-3">
 					<h6>Conecte-se</h6>
 					<ul class="footer-links ">
-						<li><a class="page-scroll" href="https://buildlab.com.br/#social-media">Sobre</a></li>
+						<li><a class="page-scroll" href="https://buildlab.com.br/#sobre">Sobre</a></li>
+						<li><a class="page-scroll" href="https://buildlab.com.br/#skills">Skills</a></li>
+						<li><a class="page-scroll" href="https://buildlab.com.br/#squad">Squad</a></li>
 						<li><a class="page-scroll" href="https://buildlab.com.br/#contato">Contato</a></li>
 					</ul>
 				</div>

@@ -1,0 +1,71 @@
+/* CSS TEAM */
+/* CSS social media*/
+#skills
+  width: 100%
+  height: 588px
+  padding-top: 20%
+  background-color: rgb(15, 15, 15)
+  padding: 0px 80px
+  background-attachment: fixed
+  @media (max-width: 480px)
+    height: 588px
+    align-items: center
+    padding: 0px 20px !important
+  a
+    text-decoration: none
+    &:hover
+      text-decoration: none !important
+
+#skills .title-skills
+  letter-spacing: 5px
+  font-size: 22pt
+  font-weight: 500
+  padding-top: 3%
+  padding-bottom: 2%
+  text-transform: uppercase
+  color: white
+  //position: absolute
+  //opacity: 0.3
+  //text-shadow: 7px 0px 3px #464646
+
+#card-web
+  background: url('../img/skills/web.png') !important
+#card-mobile
+  background: url('../img/skills/mobile.png') !important
+#card-ui
+  background: url('../img/skills/ui.png') !important
+#card-api
+  background: url('../img/skills/api.png') !important
+
+#skills
+  .card
+    width: 240px
+    height: 320px
+    color: #fff
+    border-radius: 2px
+    padding: 0px 10px
+    margin: 20px 20px 20px 20px
+    transition: all 0.5s
+    &:hover
+      cursor: pointer
+      border: 1px solid #008e92
+      transform: scale(1.02)
+      .content
+        .card-title
+          color:#008e92
+        .card-description
+          opacity: 1
+          transition: 0.5s
+          transform: translateY(220)
+    .content
+      height: 100%
+      display: flex
+      flex-direction: column
+      justify-content: end
+      .card-description
+        font-size: 14px
+        color:#dad6d6
+        // transition-property: display
+        // transition-duration: 0.5s
+        // transition-timing-function: linear
+        // transition-delay: 0.5s
