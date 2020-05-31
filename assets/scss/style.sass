@@ -7,11 +7,52 @@
 
 html,body
   font-family: $font-stack, sans-serif
-  background: $black
   margin: 0
   padding: 0
   outline: none
   z-index: 100
+
+.buildlab-container
+  width: 100%
+  height: 688px
+  padding-top: 3%
+  background-color: rgb(15, 15, 15)
+  padding: 0px 80px
+  @media (max-width: 480px)
+    height: auto
+    align-items: center
+    padding: 0px 20px !important
+  a
+    text-decoration: none
+    &:hover
+      text-decoration: none !important
+.buildlab-container-title
+  letter-spacing: 5px
+  font-size: 22pt
+  padding-top: 3%
+  padding-bottom: 2%
+  text-transform: uppercase
+  color: white
+
+.btn-outline-green
+  background-color: transparent
+  color: #accb4670
+  border-radius: 2px
+  border-color: #accb4670
+
+.btn-outline-green:hover
+  background-color: #accb46d7
+  color: black
+
+.btn-green
+  background-color: #accb46d7
+  color:#000
+  border-radius: 2px
+  border-color: #accb4670
+
+.btn-green:hover
+  background-color: transparent
+  color: #accb46d7
 
 //NAVBAR
 @import 'components/navbar'
@@ -27,8 +68,12 @@ html,body
 @import 'components/contato'
 //TEAM
 @import 'components/team'
+//BLOG
+@import 'components/blog'
 //CONECTADOS
 @import 'components/conectados'
+//ACADEMY
+@import 'components/academy'
 //EMAIL LIST
 @import 'components/email-list'
 //FOOTER

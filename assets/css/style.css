@@ -5,11 +5,64 @@
 }
 html, body {
   font-family: "MadeTommySoft", sans-serif;
-  background: #000000;
   margin: 0;
   padding: 0;
   outline: none;
   z-index: 100;
+}
+
+.buildlab-container {
+  width: 100%;
+  height: 688px;
+  padding-top: 3%;
+  background-color: #0f0f0f;
+  padding: 0px 80px;
+}
+@media (max-width: 480px) {
+  .buildlab-container {
+    height: auto;
+    align-items: center;
+    padding: 0px 20px !important;
+  }
+}
+.buildlab-container a {
+  text-decoration: none;
+}
+.buildlab-container a:hover {
+  text-decoration: none !important;
+}
+
+.buildlab-container-title {
+  letter-spacing: 5px;
+  font-size: 22pt;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  text-transform: uppercase;
+  color: white;
+}
+
+.btn-outline-green {
+  background-color: transparent;
+  color: #accb4670;
+  border-radius: 2px;
+  border-color: #accb4670;
+}
+
+.btn-outline-green:hover {
+  background-color: #accb46d7;
+  color: black;
+}
+
+.btn-green {
+  background-color: #accb46d7;
+  color: #000;
+  border-radius: 2px;
+  border-color: #accb4670;
+}
+
+.btn-green:hover {
+  background-color: transparent;
+  color: #accb46d7;
 }
 
 /* CSS Navbar */
@@ -213,38 +266,9 @@ header .btn-header:hover, header .btn-header:focus {
     padding-top: 23%;
   }
 }
-/* CSS TEAM */
-/* CSS social media*/
+/* CSS SKILLS */
 #skills {
-  width: 100%;
-  height: 588px;
-  padding-top: 20%;
-  background-color: #0f0f0f;
-  padding: 0px 80px;
-  background-attachment: fixed;
-}
-@media (max-width: 480px) {
-  #skills {
-    height: 588px;
-    align-items: center;
-    padding: 0px 20px !important;
-  }
-}
-#skills a {
-  text-decoration: none;
-}
-#skills a:hover {
-  text-decoration: none !important;
-}
-
-#skills .title-skills {
-  letter-spacing: 5px;
-  font-size: 22pt;
-  font-weight: 500;
-  padding-top: 3%;
-  padding-bottom: 2%;
-  text-transform: uppercase;
-  color: white;
+  height: 500px;
 }
 
 #card-web {
@@ -276,6 +300,7 @@ header .btn-header:hover, header .btn-header:focus {
   cursor: pointer;
   border: 1px solid #008e92;
   transform: scale(1.02);
+  box-shadow: 0px 0px 10px 1px black;
 }
 #skills .card:hover .content .card-title {
   color: #008e92;
@@ -289,7 +314,7 @@ header .btn-header:hover, header .btn-header:focus {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 }
 #skills .card .content .card-description {
   font-size: 14px;
@@ -451,30 +476,7 @@ header .btn-header:hover, header .btn-header:focus {
   font-size: 10pt;
 }
 
-.btn-enviar {
-  background-color: transparent;
-  color: #accb4670;
-  border-radius: 2px;
-  border-color: #accb4670;
-  float: right;
-}
-
-.btn-enviar:hover {
-  background-color: #accb46d7;
-  color: black;
-}
-
 /* CSS TEAM */
-.team {
-  background-color: #0f0f0f;
-  padding: 0px 80px;
-}
-@media (max-width: 680px) {
-  .team {
-    padding: 0px 90px;
-  }
-}
-
 .title-team {
   letter-spacing: 5px;
   font-size: 22pt;
@@ -611,34 +613,47 @@ header .btn-header:hover, header .btn-header:focus {
   font-size: 18px;
 }
 
-#conectados {
+/* CSS SKILLS */
+#blog .blog-card {
+  width: 300px;
+  height: 340px;
+  color: #fff;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 20px 20px 20px 20px;
+  transition: all 0.5s;
+}
+#blog .blog-card:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0px 0px 10px 1px black;
+}
+#blog .blog-card:hover .content .blog-card-description {
+  opacity: 1;
+  transition: 0.5s;
+}
+#blog .blog-card .blog-card-image {
   width: 100%;
-  height: 288px;
-  padding-top: 3%;
-  background-color: #0f0f0f;
-  padding: 0px 80px;
+  padding: 0;
 }
-@media (max-width: 480px) {
-  #conectados {
-    height: 588px;
-    align-items: center;
-    padding: 0px 20px !important;
-  }
+#blog .blog-card .blog-card-image img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(1);
 }
-#conectados a {
-  text-decoration: none;
+#blog .blog-card .content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px 0px 20px !important;
 }
-#conectados a:hover {
-  text-decoration: none !important;
-}
-
-#conectados .title-conectados {
-  letter-spacing: 5px;
-  font-size: 22pt;
-  padding-top: 3%;
-  padding-bottom: 5%;
+#blog .blog-card .content .blog-card-title {
   text-transform: uppercase;
-  color: white;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+}
+#blog .blog-card .content .blog-card-description {
+  font-size: 0.8em;
+  color: #dad6d6;
 }
 
 #logo-spark {
@@ -662,6 +677,48 @@ header .btn-header:hover, header .btn-header:focus {
 }
 .conectados-img:hover img {
   filter: grayscale(0);
+}
+
+#academy {
+  width: 100%;
+  height: 410px;
+  background: url("../img/iniciativas/academy.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  color: #fff;
+  padding: 0px 180px;
+}
+#academy article {
+  padding: 10px;
+}
+#academy #academy-title {
+  text-align: right;
+  width: 50%;
+}
+#academy #academy-title h1 {
+  font-size: 3.5em;
+  font-weight: 600;
+}
+@media (max-width: 480px) {
+  #academy #academy-title {
+    text-align: center;
+  }
+}
+#academy #academy-info {
+  width: 50%;
+}
+@media (max-width: 480px) {
+  #academy {
+    height: 588px;
+    align-items: center;
+    padding: 0px 20px !important;
+  }
+}
+#academy a {
+  text-decoration: none;
+}
+#academy a:hover {
+  text-decoration: none !important;
 }
 
 .email-list {
@@ -984,14 +1041,14 @@ header .btn-header:hover, header .btn-header:focus {
 
 #links-uteis {
   width: 100%;
-  height: 688px;
+  height: 800px;
   padding-top: 3%;
   background-color: #0f0f0f;
   padding: 0px 80px;
 }
 @media (max-width: 480px) {
   #links-uteis {
-    height: 700px;
+    height: auto;
     align-items: center;
     padding: 0px 20px !important;
   }

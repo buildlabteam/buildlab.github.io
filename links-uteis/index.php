@@ -38,7 +38,7 @@
 
 </head>
 
-<body>
+<body style="background-color: #0f0f0f; height: 100%">
 
   <!-- SOCIAL MEDIA -->
 	<div id="links-uteis" class="container-fluid">
@@ -77,7 +77,7 @@
 
     <div class="row">
       <div class="col-12 d-flex justify-content-center" id="copyright-links">
-        <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved</p>
+        <p class="copyright-text py-3">Copyright &copy; 2020 All Rights Reserved</p>
       </div>
     </div>
 	</div>

@@ -83,12 +83,12 @@
 		</div>
 	</header>
 
-<!-- SKILSS -->
-	<div id="skills" class="container-fluid">
+	<!-- SKILLS -->
+	<section id="skills" class="container-fluid buildlab-container">
 		<div class="row">
 			<div class="col-md-12">
 				<center>
-					<h2 class="title-skills">SKILLS</h2>
+					<h2 class="buildlab-container-title">SKILLS</h2>
 				</center>
 			</div>
 		</div>
@@ -98,33 +98,33 @@
 				<div class="card" id="card-web">
 					<div class="content">
 						<h4 class="card-title"><b>Web</b></h4>
-						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+						<!-- <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> -->
 					</div>
 				</div>
 				<div class="card" id="card-mobile">
 					<div class="content">
 						<h4 class="card-title"><b>Mobile</b></h4>
-						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+						<!-- <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> -->
 					</div>
 				</div>
 				<div class="card" id="card-ui">
 					<div class="content">
 						<h4 class="card-title"><b>UI Design</b></h4>
-						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+						<!-- <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> -->
 					</div>
 				</div>
 				<div class="card" id="card-api">
 					<div class="content">
 						<h4 class="card-title"><b>API's</b></h4>
-						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+						<!-- <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> -->
 					</div>
 				</div> 
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- TEAM -->
-	<div class="container-fluid team" id="team">
+	<section class="container-fluid team buildlab-container" id="team">
 		<div class="row">
 			<div class="col-md-12">
 				<center>
@@ -273,31 +273,36 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- Conectados -->
-	<div id="conectados" class="container-fluid">
+
+		<!-- CONECTADOS -->
 		<div class="row">
 			<div class="col-md-12">
 				<center>
-					<h2 class="title-conectados">Conectados</h2>
+					<h2 class="buildlab-container-title">Conectados</h2>
 				</center>
 			</div>
 		</div>
 
 		<div class="row d-flex justify-content-center align-items-center">
-			<div class="col-2 conectados-img">
+			<div class="col-md-2 col-8 conectados-img">
 				<a href="https://sparkdesignthinking.com.br/" target="_blank"><img src="assets/img/conectados/spark.png" alt="" id="logo-spark"></a>
 			</div>
-			<div class="col-2 conectados-img">
+			<div class="col-md-2 col-8 conectados-img">
 				<a href="https://gowinners.com.br/" target="_blank"><img src="assets/img/conectados/gowinners.png" alt="" id="logo-gowinners"></a>
 			</div>
-			<div class="col-2 conectados-img">
+			<div class="col-md-2 col-8 conectados-img">
+				<a href="https://neocert.co" target="_blank"><img src="assets/img/conectados/neocert.png" alt="" id="logo-brflor"></a>
+			</div>
+			<div class="col-md-2 col-8 conectados-img">
 				<a href="https://www.brflor.com.br/" target="_blank"><img src="assets/img/conectados/brflor.png" alt="" id="logo-brflor"></a>
 			</div>
-			<div class="col-12 col-sm-6 col-md-12 d-flex flex-md-row flex-column justify-content-center align-items-center">
-			</div>
 		</div>
-	</div>
+	</section>
+
+	<!-- Iniciativas -->
+	<!-- <div id="iniciativas" class="container-fluid container-buildlab">
+		<h1>Lógica de Programação</h1>
+	</div> -->
 
 	<!-- NEWSLETTER -->
 	<!--<div class="container-fluid email-list" id="newsletter">
@@ -323,8 +328,79 @@
 	</div>-->
 	<!---->
 
+	<section id="blog" class="container-fluid buildlab-container">
+		<div class="row">
+			<div class="col-md-12">
+				<center>
+					<h2 class="buildlab-container-title">BLOG</h2>
+				</center>
+			</div>
+		</div>
+
+		<div class="row">
+			<section class="col-12 col-sm-6 col-md-12 d-flex flex-md-row flex-column justify-content-center align-items-center">
+				<a href="https://blog.buildlab.com.br/">
+					<article class="blog-card">
+						<div class="blog-card-image">
+							<img src="https://www.digitalhouse.com/br/assets/blog/200519130902-ckwny5kae444nn.jpg" alt="Artigo Blog da Buidlab" title="Artigo Conecte-se ao nosso mundo">
+						</div>
+						<div class="content">
+							<h4 class="blog-card-title"><b>Saiba como programar em equipes com o conceito de Squads</b></h4>
+							<p class="blog-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+						</div>
+					</article>
+				</a>
+				<a href="https://blog.buildlab.com.br/">
+					<article class="blog-card">
+						<div class="blog-card-image">
+							<img src="https://www.digitalhouse.com/br/assets/blog/200519130902-ckwny5kae444nn.jpg" alt="Artigo Blog da Buidlab" title="Artigo Conecte-se ao nosso mundo">
+						</div>
+						<div class="content">
+							<h4 class="blog-card-title"><b>Saiba como programar em equipes com o conceito de Squads</b></h4>
+							<p class="blog-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+						</div>
+					</article>
+				</a>
+				<a href="https://blog.buildlab.com.br/">
+					<article class="blog-card">
+						<div class="blog-card-image">
+							<img src="https://www.digitalhouse.com/br/assets/blog/200519130902-ckwny5kae444nn.jpg" alt="Artigo Blog da Buidlab" title="Artigo Conecte-se ao nosso mundo">
+						</div>
+						<div class="content">
+							<h4 class="blog-card-title"><b>Saiba como programar em equipes com o conceito de Squads</b></h4>
+							<p class="blog-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+						</div>
+					</article>
+				</a>
+			</section>
+		</div>
+
+		<div class="row d-flex justify-content-center">
+			<button type="submit" class="btn btn-outline-green btn-lg">
+				Ver todos
+			</button>
+		</div>
+	</section>
+
+	<section id="academy" class="container-fluid buildlab-container d-flex justify-content-center align-items-center">
+		<article id="academy-title">
+			<h1>Lógica de Programação</h1>
+		</article>
+		<article id="academy-info">
+			<h3>+60 Aulas</h3>
+			<h3>+70 Exercícios</h3>
+			<h3>2 Apostilas</h3>
+			<p>100% Online | 100% Gratuito</p>
+			<a href="https://buildlab.com.br/aprenda-a-programar/" target="_blank">
+				<button type="button" class="btn btn-green btn-lg">
+					Inscrever-se
+				</button>
+			</a>
+		</article>
+	</section>
+
 	<!-- SOCIAL MEDIA -->
-	<div id="social-media" class="container-fluid">
+	<section id="social-media" class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
 				<center>
@@ -361,10 +437,10 @@
 				</a>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- CONTATO -->
-	<div id="contato" class="container-fluid">
+	<section id="contato" class="container-fluid">
 		<div class="row-fluid">
 			<center>
 				<h1>Contato</h1>
@@ -390,7 +466,7 @@
 						<textarea id="txtMensagem" id="text-area" required name="mensagem" cols="30" rows="3" class="form-control"
 							placeholder="Escreva sua mensagem aqui."></textarea>
 					</div>
-					<button type="submit" class="btn btn-enviar btn-md">Enviar <span class="icon-enviar"><i
+					<button type="submit" class="btn btn-outline-green btn-md" style="float: right">Enviar <span class="icon-enviar"><i
 								class="fas fa-check"></i></span></button>
 				</form>
       </div>
@@ -417,7 +493,7 @@
       ?>
 			<!-- .col-md-5 -->
 		</div>
-	</div>
+	</section>
 
 	<!-- FOOTER -->
 	<footer class="site-footer">
