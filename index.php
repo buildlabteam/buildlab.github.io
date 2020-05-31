@@ -26,7 +26,7 @@
 	<link rel="manifest" href="assets/img/icons/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="theme-color" content="#222325">
 
 	<title>BuildLab - Em busca do novo!</title>
 
