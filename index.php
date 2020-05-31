@@ -475,9 +475,11 @@
           $name = filter_input(INPUT_POST, 'name');
           $email = filter_input(INPUT_POST, 'email');
           $assunto = filter_input(INPUT_POST, 'assunto');
-          $mensagem = filter_input(INPUT_POST, 'mensagem');
+					$mensagem = filter_input(INPUT_POST, 'mensagem');
+					date_default_timezone_set('America/Sao_Paulo');
+					$created_at = date("d/m/Y H:i:s");
 
-          $array = ['name' => $name, 'email' => $email, 'assunto' => $assunto, 'mensagem' => $mensagem];
+          $array = ['name' => $name, 'email' => $email, 'assunto' => $assunto, 'mensagem' => $mensagem, 'created_at' => $created_at];
 
           $json_filename = 'contacts.json';
           $old_json = file_get_contents($json_filename);
