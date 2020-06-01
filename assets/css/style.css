@@ -13,7 +13,6 @@ html, body {
 
 .buildlab-container {
   width: 100%;
-  height: 688px;
   padding-top: 3%;
   background-color: #0f0f0f;
   padding: 0px 80px;
@@ -477,6 +476,10 @@ header .btn-header:hover, header .btn-header:focus {
 }
 
 /* CSS TEAM */
+#team {
+  padding-bottom: 50px;
+}
+
 .title-team {
   letter-spacing: 5px;
   font-size: 22pt;

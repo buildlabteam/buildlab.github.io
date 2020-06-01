@@ -53,14 +53,20 @@
 			<div class="collapse navbar-collapse" id="navbar-main-collapse">
 				<ul class="navbar-nav ml-auto">
 					<!-- .ml-auto deixa alinhado a direita-->
-					<li class="nav-item">
+					<!-- <li class="nav-item">
 						<a class="page-scroll nav-link" href="#sobre">SOBRE</a>
 					</li>
 					<li class="nav-item">
 						<a class="page-scroll nav-link" href="#skills">SKILLS</a>
-					</li>
+					</li> -->
 					<li class="nav-item">
 						<a class="page-scroll nav-link" href="#team">SQUAD</a>
+          </li>
+          <li class="nav-item">
+						<a class="page-scroll nav-link" target="_blank" href="https://buildlab.com.br/aprenda-a-programar/">ACADEMY</a>
+					</li>
+					<li class="nav-item">
+						<a class="page-scroll nav-link" target="_blank" href="https://blog.buildlab.com.br/">BLOG</a>
 					</li>
 					<li class="nav-item">
 						<a class="page-scroll nav-link" href="#contato">CONTATO</a>
@@ -78,366 +84,187 @@
 			</div>
 			<h1><span id="typed"></span></h1> <!-- Procurar pelo cursos do typed.js -->
 			<div class="col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-8 offset-xs-2 d-flex justify-content-center">
-				<a class="page-scroll" href="#sobre"><button type="button" class="btn-header">conectar <i class="fa fa-angle-down"></i></button></a>
+				<a class="page-scroll" href="#team"><button type="button" class="btn-header">conectar <i class="fa fa-angle-down"></i></button></a>
 			</div>
 		</div>
 	</header>
 
-	<!-- SKILLS -->
-	<section id="skills" class="container-fluid buildlab-container">
-		<div class="row">
-			<div class="col-md-12">
-				<center>
-					<h2 class="buildlab-container-title">SKILLS</h2>
-				</center>
-			</div>
-		</div>
+	<!-- SQUAD -->
+<section class="container-fluid team buildlab-container" id="team">
+  <div class="row">
+    <div class="col-md-12">
+      <center>
+        <h2 class="title-team">Squad</h2>
+      </center>
+    </div>
+  </div>
 
-		<div class="row">
-			<div class="col-12 col-sm-6 col-md-12 d-flex flex-md-row flex-column justify-content-center align-items-center">
-				<div class="card" id="card-web">
-					<div class="content">
-						<h4 class="card-title"><b>Web</b></h4>
-						<!-- <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> -->
-					</div>
-				</div>
-				<div class="card" id="card-mobile">
-					<div class="content">
-						<h4 class="card-title"><b>Mobile</b></h4>
-						<!-- <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> -->
-					</div>
-				</div>
-				<div class="card" id="card-ui">
-					<div class="content">
-						<h4 class="card-title"><b>UI Design</b></h4>
-						<!-- <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> -->
-					</div>
-				</div>
-				<div class="card" id="card-api">
-					<div class="content">
-						<h4 class="card-title"><b>API's</b></h4>
-						<!-- <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> -->
-					</div>
-				</div> 
-			</div>
-		</div>
-	</section>
+  <div class="row d-flex">
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="assets/img/team/leo.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Leonardo Alves</h3>
+          <h4 class="title">IT Manager</h4>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="https://instagram.com/leoalvesrr" class="fab fa-instagram" aria-hidden="true" target="_blank"></a>
+          </li>
+          <li>
+            <a href="https://github.com/leo-pro" class="fab fa-github" aria-hidden="true" target="_blank"></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/leonardoalvess" class="fa fa-linkedin" aria-hidden="true" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-	<!-- TEAM -->
-	<section class="container-fluid team buildlab-container" id="team">
-		<div class="row">
-			<div class="col-md-12">
-				<center>
-					<h2 class="title-team">Squad</h2>
-				</center>
-			</div>
-		</div>
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="assets/img/team/tangi.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Lucas Tangi</h3>
+          <h4 class="title">Designer UX/UI</h4>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="https://instagram.com/lucastangi" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://github.com/lucastangi" class="fab fa-github" aria-hidden="true" target="_blank"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/lucas-tangi-800a33138/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-		<div class="row d-flex">
-			<div class="col-12 col-sm-6 col-md-3">
-				<div class="our-team">
-					<div class="picture">
-						<img class="img-fluid" src="assets/img/team/leo.png">
-					</div>
-					<div class="team-content">
-						<h3 class="name">Leonardo Alves</h3>
-						<h4 class="title">IT Manager</h4>
-					</div>
-					<ul class="social">
-						<li>
-							<a href="https://instagram.com/leoalvesrr" class="fab fa-instagram" aria-hidden="true" target="_blank"></a>
-						</li>
-						<li>
-							<a href="https://github.com/leo-pro" class="fab fa-github" aria-hidden="true" target="_blank"></a>
-						</li>
-						<li>
-							<a href="https://linkedin.com/in/leonardoalvess" class="fa fa-linkedin" aria-hidden="true" target="_blank"></a>
-						</li>
-					</ul>
-				</div>
-			</div>
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="assets/img/team/nikito.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Vinicius Cesar</h3>
+          <h4 class="title">Developer</h4>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="https://instagram.com/viniciusunverso" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://github.com/viniciusanchieta" class="fab fa-github" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/viniciusanchieta" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-			<div class="col-12 col-sm-6 col-md-3">
-				<div class="our-team">
-					<div class="picture">
-						<img class="img-fluid" src="assets/img/team/tangi.png">
-					</div>
-					<div class="team-content">
-						<h3 class="name">Lucas Tangi</h3>
-						<h4 class="title">Designer UX/UI</h4>
-					</div>
-					<ul class="social">
-						<li>
-							<a href="https://instagram.com/lucastangi" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
-						</li>
-						<li>
-							<a href="https://github.com/lucastangi" class="fab fa-github" aria-hidden="true" target="_blank"></a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/lucas-tangi-800a33138/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-12 col-sm-6 col-md-3">
-				<div class="our-team">
-					<div class="picture">
-						<img class="img-fluid" src="assets/img/team/nikito.png">
-					</div>
-					<div class="team-content">
-						<h3 class="name">Vinicius Cesar</h3>
-						<h4 class="title">Developer</h4>
-					</div>
-					<ul class="social">
-						<li>
-							<a href="https://instagram.com/viniciusunverso" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
-						</li>
-						<li>
-							<a href="https://github.com/viniciusanchieta" class="fab fa-github" target="_blank" aria-hidden="true"></a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/viniciusanchieta" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-12 col-sm-6 col-md-3">
-				<div class="our-team">
-					<div class="picture">
-						<img class="img-fluid" src="assets/img/team/lucena.png">
-					</div>
-					<div class="team-content">
-						<h3 class="name">Matheus Lucena</h3>
-						<h4 class="title">NS Manager</h4>
-					</div>
-					<ul class="social">
-						<li>
-							<a href="https://instagram.com/matheus.lucenaa" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
-						</li>
-						<li>
-							<a href="https://github.com/matheus-gio" class="fab fa-github" target="_blank" aria-hidden="true"></a>
-						</li>
-						<li>
-							<a href="https://linkedin.com/in/matheus-lucena" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
-						</li>
-					</ul>
-				</div>
-			</div>
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="assets/img/team/lucena.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Matheus Lucena</h3>
+          <h4 class="title">NS Manager</h4>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="https://instagram.com/matheus.lucenaa" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://github.com/matheus-gio" class="fab fa-github" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/matheus-lucena" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
 
-			<div class="col-12 col-sm-6 col-md-3">
-				<div class="our-team">
-					<div class="picture">
-						<img class="img-fluid" src="assets/img/team/samuca.png">
-					</div>
-					<div class="team-content">
-						<h3 class="name">Samuel Ribeiro</h3>
-						<h4 class="title">HR Manager</h4>
-					</div>
-					<ul class="social">
-						<li>
-							<a href="mailto:" class="fa fa-envelope" aria-hidden="true" target="_blank"></a>
-						</li>
-						<li>
-							<a href="https://instagram.com/samuel.ribeiro" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
-						</li>
-						<li>
-							<a href="https://linkedin.com/in/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
-						</li>
-					</ul>
-				</div>
-			</div>
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="assets/img/team/samuca.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Samuel Ribeiro</h3>
+          <h4 class="title">HR Manager</h4>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="mailto:" class="fa fa-envelope" aria-hidden="true" target="_blank"></a>
+          </li>
+          <li>
+            <a href="https://instagram.com/samuel.ribeiro" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-			<div class="col-12 col-sm-6 col-md-3">
-				<div class="our-team">
-					<div class="picture">
-						<img class="img-fluid" src="assets/img/team/eliton.png">
-					</div>
-					<div class="team-content">
-						<h3 class="name">Eliton Camargo</h3>
-						<h4 class="title">Instructor</h4>
-					</div>
-					<ul class="social">
-						<li>
-							<a href="mailto:camargoliveira@gmail.com" class="fa fa-envelope" target="_blank" aria-hidden="true"></a>
-						</li>
-						<li>
-							<a href="https://github.com/" class="fab fa-github" target="_blank" aria-hidden="true"></a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/eliton-camargo-270a37b3/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="assets/img/team/eliton.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Eliton Camargo</h3>
+          <h4 class="title">Instructor</h4>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="mailto:camargoliveira@gmail.com" class="fa fa-envelope" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://github.com/" class="fab fa-github" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/eliton-camargo-270a37b3/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-		<!-- CONECTADOS -->
-		<div class="row">
-			<div class="col-md-12">
-				<center>
-					<h2 class="buildlab-container-title">Conectados</h2>
-				</center>
-			</div>
-		</div>
+  <!-- CONECTADOS -->
+  <div class="row">
+    <div class="col-md-12">
+      <center>
+        <h2 class="buildlab-container-title">Conectados</h2>
+      </center>
+    </div>
+  </div>
 
-		<div class="row d-flex justify-content-center align-items-center">
-			<div class="col-md-2 col-8 conectados-img">
-				<a href="https://sparkdesignthinking.com.br/" target="_blank"><img src="assets/img/conectados/spark.png" alt="" id="logo-spark"></a>
-			</div>
-			<div class="col-md-2 col-8 conectados-img">
-				<a href="https://gowinners.com.br/" target="_blank"><img src="assets/img/conectados/gowinners.png" alt="" id="logo-gowinners"></a>
-			</div>
-			<div class="col-md-2 col-8 conectados-img">
-				<a href="https://neocert.co" target="_blank"><img src="assets/img/conectados/neocert.png" alt="" id="logo-brflor"></a>
-			</div>
-			<div class="col-md-2 col-8 conectados-img">
-				<a href="https://www.brflor.com.br/" target="_blank"><img src="assets/img/conectados/brflor.png" alt="" id="logo-brflor"></a>
-			</div>
-		</div>
-	</section>
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-2 col-8 conectados-img">
+      <a href="https://sparkdesignthinking.com.br/" target="_blank"><img src="assets/img/conectados/spark.png" alt="" id="logo-spark"></a>
+    </div>
+    <div class="col-md-2 col-8 conectados-img">
+      <a href="https://gowinners.com.br/" target="_blank"><img src="assets/img/conectados/gowinners.png" alt="" id="logo-gowinners"></a>
+    </div>
+    <div class="col-md-2 col-8 conectados-img">
+      <a href="https://neocert.co" target="_blank"><img src="assets/img/conectados/neocert.png" alt="" id="logo-brflor"></a>
+    </div>
+    <div class="col-md-2 col-8 conectados-img">
+      <a href="https://www.brflor.com.br/" target="_blank"><img src="assets/img/conectados/brflor.png" alt="" id="logo-brflor"></a>
+    </div>
+  </div>
+</section>
 
-	<!-- Iniciativas -->
-	<!-- <div id="iniciativas" class="container-fluid container-buildlab">
-		<h1>Lógica de Programação</h1>
-	</div> -->
-
-	<!-- NEWSLETTER -->
-	<!--<div class="container-fluid email-list" id="newsletter">
-		<div class="row">
-			<div class="col">
-				<div class="comming-soon">
-					<div class="circle"></div>
-					<div class="form-group">
-						<p class="text">CONECTAR</p>
-						<label>FAÇA PARTE DA NOSSA REDE</label>
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Seu melhor e-mail">
-							<div class="input-group-append">
-								<span class="input-group-text" id="basic-addon2">
-									<button>Enviar</button>
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>-->
-	<!---->
-
-	<section id="blog" class="container-fluid buildlab-container">
-		<div class="row">
-			<div class="col-md-12">
-				<center>
-					<h2 class="buildlab-container-title">BLOG</h2>
-				</center>
-			</div>
-		</div>
-
-		<div class="row">
-			<section class="col-12 col-sm-6 col-md-12 d-flex flex-md-row flex-column justify-content-center align-items-center">
-				<a href="https://blog.buildlab.com.br/">
-					<article class="blog-card">
-						<div class="blog-card-image">
-							<img src="https://www.digitalhouse.com/br/assets/blog/200519130902-ckwny5kae444nn.jpg" alt="Artigo Blog da Buidlab" title="Artigo Conecte-se ao nosso mundo">
-						</div>
-						<div class="content">
-							<h4 class="blog-card-title"><b>Saiba como programar em equipes com o conceito de Squads</b></h4>
-							<p class="blog-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-						</div>
-					</article>
-				</a>
-				<a href="https://blog.buildlab.com.br/">
-					<article class="blog-card">
-						<div class="blog-card-image">
-							<img src="https://www.digitalhouse.com/br/assets/blog/200519130902-ckwny5kae444nn.jpg" alt="Artigo Blog da Buidlab" title="Artigo Conecte-se ao nosso mundo">
-						</div>
-						<div class="content">
-							<h4 class="blog-card-title"><b>Saiba como programar em equipes com o conceito de Squads</b></h4>
-							<p class="blog-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-						</div>
-					</article>
-				</a>
-				<a href="https://blog.buildlab.com.br/">
-					<article class="blog-card">
-						<div class="blog-card-image">
-							<img src="https://www.digitalhouse.com/br/assets/blog/200519130902-ckwny5kae444nn.jpg" alt="Artigo Blog da Buidlab" title="Artigo Conecte-se ao nosso mundo">
-						</div>
-						<div class="content">
-							<h4 class="blog-card-title"><b>Saiba como programar em equipes com o conceito de Squads</b></h4>
-							<p class="blog-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-						</div>
-					</article>
-				</a>
-			</section>
-		</div>
-
-		<div class="row d-flex justify-content-center">
-			<button type="submit" class="btn btn-outline-green btn-lg">
-				Ver todos
-			</button>
-		</div>
-	</section>
-
-	<section id="academy" class="container-fluid buildlab-container d-flex justify-content-center align-items-center">
-		<article id="academy-title">
-			<h1>Lógica de Programação</h1>
-		</article>
-		<article id="academy-info">
-			<h3>+60 Aulas</h3>
-			<h3>+70 Exercícios</h3>
-			<h3>2 Apostilas</h3>
-			<p>100% Online | 100% Gratuito</p>
-			<a href="https://buildlab.com.br/aprenda-a-programar/" target="_blank">
-				<button type="button" class="btn btn-green btn-lg">
-					Inscrever-se
-				</button>
-			</a>
-		</article>
-	</section>
-
-	<!-- SOCIAL MEDIA -->
-	<section id="social-media" class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<center>
-					<h2 class="title-social-media">Social</h2>
-				</center>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-12 col-sm-6 col-md-12 d-flex flex-md-row flex-column justify-content-center align-items-center">
-				<!--<a href="https://discordapp.com/invite/HZEZePH" target="_blank">
-					<div class="icone-social">
-						<i class="fab fa-discord" id="icon-discord"></i>
-						<h4 class="title">Comunidade</h4>
-					</div>
-				</a>-->
-				<a href="https://instagram.com/build_lab" target="_blank">
-					<div class="icone-social">
-						<i class="fab fa-instagram" id="icon-instagram"></i>
-						<h4 class="title">Instagram</h4>
-					</div>
-				</a>
-				<a href="https://linkedin.com/in/buildlab" target="_blank">
-					<div class="icone-social">
-						<i class="fab fa-linkedin" id="icon-linkedin"></i>
-						<h4 class="title">LinkedIn</h4>
-					</div>
-				</a>
-				<a href="https://facebook.com/build_lab" target="_blank">
-					<div class="icone-social">
-						<i class="fab fa-facebook-square" id="icon-youtube"></i>
-						<h4 class="title">Facebook</h4>
-					</div>
-				</a>
-			</div>
-		</div>
-	</section>
 
 	<!-- CONTATO -->
 	<section id="contato" class="container-fluid">
