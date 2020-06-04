@@ -72,6 +72,12 @@
 						<h4 class="title">Academy</h4>
 					</div>
 				</a>
+				<a href="https://www.sympla.com.br/curso-gestao-da-inovacao---turma-junho-2020__864347" target="_blank">
+					<div class="icone-social">
+          <i class="far fa-lightbulb"></i>
+						<h4 class="title">Curso de Inovação</h4>
+					</div>
+				</a>
 			</div>
 		</div>
 
