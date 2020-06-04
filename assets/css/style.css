@@ -665,7 +665,7 @@ header .btn-header:hover, header .btn-header:focus {
 }
 
 #logo-gowinners {
-  width: 150px;
+  width: 135px;
   height: auto;
 }
 
@@ -674,6 +674,36 @@ header .btn-header:hover, header .btn-header:focus {
   height: auto;
 }
 
+#logo-neocert {
+  width: 150px;
+  height: auto;
+}
+
+#logo-szx {
+  width: 80px;
+  height: auto;
+}
+
+#logo-agrowth {
+  width: 150px;
+  height: auto;
+}
+
+#logo-moubi {
+  width: 80px;
+  height: auto;
+}
+
+.conectados-img {
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px;
+}
+@media (max-width: 600px) {
+  .conectados-img {
+    padding: 20px 20px;
+  }
+}
 .conectados-img img {
   filter: grayscale(1);
   cursor: pointer;
