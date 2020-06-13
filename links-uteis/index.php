@@ -28,7 +28,7 @@
 	<meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-	<title>BuildLab - Em busca do novo!</title>
+	<title>BuildLab - Conecte-se ao nosso mundo!</title>
 
 	<!-- <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet"> -->
 
