@@ -477,6 +477,12 @@ a:hover {
         font-size: 30px;
     }
 }
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.5em;
+        margin-top: 50px;
+    }
+}
 
 .position-relative {
     position: relative;
