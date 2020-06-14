@@ -79,7 +79,7 @@
         <div class="container">
           <div class="row mb-2">
               <div class="col-12 text-center">
-                  <h2 class="section-title mb-3">Depoimento dos alunos</h2>
+                  <h2 class="section-title mb-3">DEPOIMENTO DOS ALUNOS</h2>
               </div>
           </div>
 
