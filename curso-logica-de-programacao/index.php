@@ -25,58 +25,49 @@
     <meta name="msapplication-TileImage" content="../assets/img/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#222325">
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="stylesheet" href="css/main.css">
 
 </head>
 
-<body class="background-black-buildlab" data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <div class="site-wrap" id="home-section">
-      <header class="site-navbar pt-5 site-navbar-target" role="banner">
+<body class="background-black-buildlab">
+    
+      <header class="pt-5">
           <div class="container-fluid">
-              <!-- <div class="row d-flex justify-content-center">
-                <a href="index.html" class="h2 mb-0"><img src="images/logo-academy.png" width="250" alt=""></a>
-              </div> -->
               <div class="row d-flex justify-content-center">
-              <div id="typed-strings">
-                <p><span>QUER APRENDER A PROGRAMAR?</span></p>
-              </div>
+                <div id="typed-strings">
+                  <p><span>QUER APRENDER A PROGRAMAR?</span></p>
+                </div>
                 <h1 class="title-landing-page"><span id="typed"></span></h1>
               </div>
           </div>
       </header>
 
       <section class="container">
-        <div class="row video-descri">
-          <div class="col-md-6">
-            <h1 class="title-principal">Lógica de Programação</h1>
-            <p class="mb-3">Nesse curso 100% Online e 100% Gratuito você vai dar seus primeiros passos no mundo da programação.</p>
-            <div class="mb-4" id="curso-info">
-              <h5 class="my-3"><i class="fas fa-video"></i> +60 Aulas</h5>
-              <h5 class="my-3"><i class="fas fa-pen-alt"></i> +70 Exercícios</h5>
-              <h5 class="mt-3 mb-5"><i class="fas fa-file-alt"></i> Material didático</h5>
+        <div class="row d-flex justify-content-center">
+          <div class="col-10 col-md-6 d-flex flex-column order-2 order-md-1 justify-content-center">
+            <h1 class="title-curso">Lógica de Programação</h1>
+            <p class="mb-3 curso-description">Nesse curso 100% Online e 100% Gratuito você vai dar seus primeiros passos no mundo da programação.</p>
+            <div class="mb-4 d-flex flex-column flex-md-row align-items-center" id="curso-info">
+              <div class="my-3 curso-info-item">
+                <i class="fas fa-video"></i> 
+                <p>+60 Aulas</p>
+              </div>
+              <div class="my-3 curso-info-item">
+                <i class="fas fa-pen-alt"></i> 
+                <p>+70 Exercícios</p>
+              </div>
+              <div class="curso-info-item mt-3 mb-md-3 mb-4">
+                <i class="fas fa-file-alt"></i> 
+                <p>Material didático</p>
+              </div>
             </div>
-            <a class="btn-submit" href="#modalInscricao">Fazer a inscrição</a>
+            <div class="text-center"><a class="btn-submit" href="#modalInscricao">Fazer a inscrição</a></div>
           </div>
-          <div class="col-md-6">
+          <div class="col-10 col-md-6 order-1 order-md-2">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3XssffgnsU4"></iframe>
             </div>
@@ -92,23 +83,23 @@
               </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="row d-flex flex-lg-row flex-md-column justify-content-center align-items-center">
+            <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="h-entry">
-                  <iframe width="360" height="220" src="https://www.youtube.com/embed/m36BVBAZzI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h4>Leonardo Alves</h4>
+                  <iframe width="100%" height="220" src="https://www.youtube.com/embed/m36BVBAZzI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <h4 class="text-center">Lucas Tangi</h4>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="h-entry">
-                  <iframe width="360" height="220" src="https://www.youtube.com/embed/m36BVBAZzI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h4>Leonardo Alves</h4>
+                  <iframe width="100%" height="220" src="https://www.youtube.com/embed/m36BVBAZzI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <h4 class="text-center">Lucas Tangi</h4>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="h-entry">
-                <iframe width="360" height="220" src="https://www.youtube.com/embed/m36BVBAZzI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h4>Leonardo Alves</h4>
+                <iframe width="100%" height="220" src="https://www.youtube.com/embed/m36BVBAZzI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <h4 class="text-center">Lucas Tangi</h4>
                 </div>
             </div>
           </div>
@@ -129,9 +120,9 @@
               </div>
           </div> -->
           <div class="row">
-              <div class="col-md-12 d-flex justify-content-between align-items-center">
-                <img src="images/logo-academy.png" width="200" alt="">
-                <p class="mb-0">
+              <div class="col-md-12 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <img src="images/logo-academy.png" id="logo-academy">
+                <p class="mb-0" id="copyright">
                     Copyright &copy;
                     <script>
                         document.write(new Date().getFullYear());
@@ -142,7 +133,7 @@
           </div>
         </div>
       </div>
-    </div>
+    
 
     <!-- Fontawesome icons -->
     <script src="https://kit.fontawesome.com/a41e0085e0.js" crossorigin="anonymous"></script>
