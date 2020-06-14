@@ -52,15 +52,15 @@
             <h1 class="title-curso">Lógica de Programação</h1>
             <p class="mb-3 curso-description">Nesse curso 100% Online e 100% Gratuito você vai dar seus primeiros passos no mundo da programação.</p>
             <div class="mb-4 d-flex flex-column flex-md-row align-items-center" id="curso-info">
-              <div class="my-3 curso-info-item">
+              <div class="my-3 curso-info-item d-flex flex-column justify-content-center align-items-center">
                 <i class="fas fa-video"></i> 
                 <p>+60 Aulas</p>
               </div>
-              <div class="my-3 curso-info-item">
+              <div class="my-3 curso-info-item d-flex flex-column justify-content-center align-items-center">
                 <i class="fas fa-pen-alt"></i> 
                 <p>+70 Exercícios</p>
               </div>
-              <div class="curso-info-item mt-3 mb-md-3 mb-4">
+              <div class="curso-info-item d-flex flex-column justify-content-center align-items-center mt-3 mb-md-3 mb-4">
                 <i class="fas fa-file-alt"></i> 
                 <p>Material didático</p>
               </div>

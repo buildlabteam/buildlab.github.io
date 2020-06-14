@@ -50,9 +50,9 @@ header{
         font-size: 1.4em;
     }
 }
-@media (max-width: 360px){
+@media (max-width: 380px){
     .title-landing-page{
-        font-size: 0.8em;
+        font-size: 1.0em;
     }
 }
 
@@ -93,10 +93,10 @@ header{
 
 @media (max-width: 768px){
     #curso-info .curso-info-item{
-        font-size: 1.2em !important;
+        font-size: 1.0em !important;
         text-align: center;
         width: 50%;
-        height: 90px;
+        height: 120px;
         background: #000;
         padding: 10px 8px;
         border-radius: 2px;
