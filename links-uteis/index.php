@@ -69,13 +69,15 @@
 				<a href="https://buildlab.com.br/aprenda-a-programar" target="_blank">
 					<div class="icone-social">
             <img src="../assets/img/academy-blue.png" id="academy-icon" alt="">
-						<h4 class="title">Academy</h4>
+						<h4 class="title">lógica de programação</h4>
+						<p class="subtitle">Curso completo</p>
 					</div>
 				</a>
 				<a href="https://www.sympla.com.br/curso-gestao-da-inovacao---turma-junho-2020__864347" target="_blank">
 					<div class="icone-social">
-          <i class="far fa-lightbulb"></i>
-						<h4 class="title">Curso de Inovação</h4>
+          	<i class="far fa-lightbulb"></i>
+						<h4 class="title">Curso Gestão da Inovação</h4>
+						<p class="subtitle">Pedro Chamochumbi</p>
 					</div>
 				</a>
 			</div>

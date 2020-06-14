@@ -1141,6 +1141,9 @@ footer {
 .icone-social:hover .title {
   color: #008e92;
 }
+.icone-social:hover .subtitle {
+  color: #008e92;
+}
 .icone-social i {
   font-size: 4em !important;
   color: #4e5052;
@@ -1154,7 +1157,13 @@ footer {
 
 .icone-social .title {
   display: block;
-  font-size: 15px;
+  font-size: 12px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+.icone-social .subtitle {
+  display: block;
+  font-size: 10px;
   color: #4e5052;
   text-transform: capitalize;
 }
