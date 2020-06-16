@@ -205,7 +205,7 @@
           $result = curl_exec($ch);
           curl_close($ch);
 
-          echo "<script>window.location.replace('https://buildlab.com.br/aprenda-a-programar/sucesso');</script>";
+          echo "<script>window.location.replace('https://buildlab.com.br/curso-logica-de-programacao/inscricao-confirmada');</script>";
         }
       ?>
 
