@@ -1,10 +1,14 @@
 /* Base */
-
+*{
+    box-sizing: border-box;
+}
 body {
     line-height: 1.7;
     color: gray;
     font-weight: 400;
     font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 .background-black-buildlab {
@@ -104,12 +108,15 @@ header{
     }
 }
 
+.btn, .btn-submit{
+    padding: 14px !important;
+}
+
 .btn-submit {
-    border: 1px solid #cac33b;
+    border: 1px solid #cac33b !important;
     border-radius: 2px !important;
-    color: #cac33b;
+    color: #cac33b !important;
     cursor: pointer;
-    padding: 14px;
     height: 60px;
     transition: 0.5s all;
     text-align: center;
@@ -118,8 +125,26 @@ header{
 .btn-submit:hover {
     background-color: #cac33b;
     transition: 0.5s all;
-    color: rgb(43, 37, 37);
+    color: rgb(43, 37, 37) !important;
 }
+
+.modal{
+    background: rgba(0, 0, 0,0.6) !important;
+}
+.modal-content{
+    background-color: #0f0f0f;
+    color: #fff;
+}
+.modal-header{
+    border-bottom: none;
+}
+
+.close span i{
+    color: #ffffff !important;
+    font-size: 1em !important;
+}
+
+
 
 ::-moz-selection {
     background: #000;
