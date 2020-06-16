@@ -68,9 +68,9 @@
 <body>
     <div class="container d-flex flex-column align-items-center">
       <div class="row mb-5">
-        <img src="../images/logo-academy.png" width="300" alt="">
+        <img src="../images/logo-academy.png" width="250" alt="">
       </div>
-      <div class="col-7 text-center">
+      <div class="col-12 col-md-7 text-center mb-5">
         <h4 class="mb-5">Sua inscricação está confirmada!</h4>
         <p class="mb-5">
           Fique atento ao seu email, pois enviaremos o link. Se caso notar que está demorando, verifique sua caixa de <i>spam</i> ou <i>lixo eletrônico</i>. Não deixe de nos seguir nas redes sociais para acompanhar as novidades.
