@@ -89,20 +89,20 @@
           <div class="row d-flex flex-lg-row flex-md-column justify-content-center align-items-center">
             <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="h-entry">
-                  <iframe width="100%" height="220" src="https://www.youtube.com/embed/m36BVBAZzI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h4 class="text-center">Lucas Tangi</h4>
+                  <iframe width="100%" height="220" src="https://www.youtube.com/embed/_F4iFNrz3Uw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <h4 class="text-center">Laís Maio</h4>
                 </div>
             </div>
             <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="h-entry">
-                  <iframe width="100%" height="220" src="https://www.youtube.com/embed/m36BVBAZzI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h4 class="text-center">Lucas Tangi</h4>
+                  <iframe width="100%" height="220" src="https://www.youtube.com/embed/EqAwlnPpixo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <h4 class="text-center">Natan Paulo</h4>
                 </div>
             </div>
             <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="h-entry">
-                <iframe width="100%" height="220" src="https://www.youtube.com/embed/m36BVBAZzI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h4 class="text-center">Lucas Tangi</h4>
+                  <iframe width="100%" height="220" src="https://www.youtube.com/embed/Ld3AELcyXIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <h4 class="text-center">Leiliane Cunha</h4>
                 </div>
             </div>
           </div>
