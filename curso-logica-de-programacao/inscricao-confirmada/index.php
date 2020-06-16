@@ -72,10 +72,14 @@
       </div>
       <div class="col-7 text-center">
         <h4 class="mb-5">Sua inscricação está confirmada!</h4>
-        <p>
-          Fique atento ao seu email, pois enviaremos o link. Se caso notar que está demorando, verifique sua caixa de <i>spam</i> ou <i>lixo eletrônico</i>. Não deixe de nos seguir no <a href="https://instagram.com/build_lab">Instagram</a> para acompanhar as novidades.
+        <p class="mb-5">
+          Fique atento ao seu email, pois enviaremos o link. Se caso notar que está demorando, verifique sua caixa de <i>spam</i> ou <i>lixo eletrônico</i>. Não deixe de nos seguir nas redes sociais para acompanhar as novidades.
         </p>
+        <a class="btn-submit" href="https://instagram.com/build_lab" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
       </div>
     </div>
+
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/a41e0085e0.js" crossorigin="anonymous"></script>
 </body>
 </html>
