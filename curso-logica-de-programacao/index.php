@@ -189,8 +189,8 @@
           $new_json = json_encode($old_data);
           file_put_contents($json_filename, $new_json);
 
-          $url = 'https://mvcdfme4gf.execute-api.us-east-1.amazonaws.com/prod/api/AddEmail';
-          $data = array("email" => $email, "name" => $name, "company" => $company, "phone" => $phone, "auth" => "BUILD@)!(*!#()JIAOKDLAM<D");
+          $url = "https://mvcdfme4gf.execute-api.us-east-1.amazonaws.com/prod/api/AddEmail";
+          $data = array("email" => "$email", "name" => "$name", "company" => "$company", "phone" => "$phone", "auth" => "BUILD@)!(*!#()JIAOKDLAM<D");
 
           $postdata = json_encode($data);
 
