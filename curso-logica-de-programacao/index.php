@@ -181,18 +181,18 @@
           echo $email."<br>";
           echo $phone."<br>";
           echo $company."<br>";
-          // $array = ['name' => $name, 'email' => $email, 'phone' => $phone, 'company' => $company];
-          // $json_filename = 'data_users.json';
-          // $old_json = file_get_contents($json_filename);
-          // $old_data = json_decode($old_json);
+          $array = ['name' => $name, 'email' => $email, 'phone' => $phone, 'company' => $company];
+          $json_filename = 'data_users.json';
+          $old_json = file_get_contents($json_filename);
+          $old_data = json_decode($old_json);
       
-          // if ($old_data == null) {
-          //   $old_data = array();
-          // }
+          if ($old_data == null) {
+            $old_data = array();
+          }
       
-          // $new_data = array_push($old_data, $array);
-          // $new_json = json_encode($old_data);
-          // file_put_contents($json_filename, $new_json);
+          $new_data = array_push($old_data, $array);
+          $new_json = json_encode($old_data);
+          file_put_contents($json_filename, $new_json);
       
           $url = 'https://mvcdfme4gf.execute-api.us-east-1.amazonaws.com/prod/api/AddEmail';
           $data = array("email" => $email, "name" => $name, "company" => $company, "phone" => $phone, "auth" => "BUILD@)!(*!#()JIAOKDLAM<D");
