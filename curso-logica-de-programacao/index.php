@@ -143,9 +143,9 @@
               <form method="POST" class="form-signin">
                 <!-- <h1 class="h5 mb-5">INSCREVA-SE AGORA!</h1> -->
                 <label for="inputName" class="sr-only">Nome</label>
-                <input type="text" id="inputName" name="name" class="form-control" placeholder="Nome" required>
+                <input type="text" id="inputName" name="name1" class="form-control" placeholder="Nome" required>
                 <label for="inputEmail" class="sr-only">E-mail</label>
-                <input type="email" name="inputEmail" name="email" id="inputEmail" class="form-control mb-3" placeholder="Seu melhor E-mail" required>
+                <input type="email" name="email" class="form-control mb-3" placeholder="Seu melhor E-mail" required>
                 <label for="inputName" class="sr-only">Telefone</label>
                 <input type="text" id="inputTelefone" name="phone" class="form-control" placeholder="Telefone">
                 <label for="inputName" class="sr-only">Instituição</label>
@@ -170,31 +170,39 @@
           </div>
         </div>
       </div>
+
       <?php
-        if ($_POST) {
-          $name = filter_input(INPUT_POST, 'name');
+        if (isset($_POST["submit"])) {
+          $name = filter_input(INPUT_POST, 'name1');
           $email = strtolower(filter_input(INPUT_POST, 'email'));
           $phone = filter_input(INPUT_POST, 'phone');
           $company = filter_input(INPUT_POST, 'company');
+<<<<<<< HEAD
           
+=======
+          echo $name."<br>";
+          echo $email."<br>";
+          echo $phone."<br>";
+          echo $company."<br>";
+>>>>>>> c761f4119a92642f6ebe7ec9489e5769c1a4c40f
           $array = ['name' => $name, 'email' => $email, 'phone' => $phone, 'company' => $company];
           $json_filename = 'data_users.json';
           $old_json = file_get_contents($json_filename);
           $old_data = json_decode($old_json);
-
+      
           if ($old_data == null) {
             $old_data = array();
           }
-
+      
           $new_data = array_push($old_data, $array);
           $new_json = json_encode($old_data);
           file_put_contents($json_filename, $new_json);
-
+      
           $url = 'https://mvcdfme4gf.execute-api.us-east-1.amazonaws.com/prod/api/AddEmail';
           $data = array("email" => $email, "name" => $name, "company" => $company, "phone" => $phone, "auth" => "BUILD@)!(*!#()JIAOKDLAM<D");
-
+      
           $postdata = json_encode($data);
-
+      
           $ch = curl_init($url);
           curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
           curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
@@ -205,6 +213,7 @@
           curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
           $result = curl_exec($ch);
           curl_close($ch);
+      
 
           echo "<script>window.location.replace('https://buildlab.com.br/curso-logica-de-programacao/inscricao-confirmada');</script>";
         }
