@@ -176,6 +176,7 @@
           $email = strtolower(filter_input(INPUT_POST, 'email'));
           $phone = filter_input(INPUT_POST, 'phone');
           $company = filter_input(INPUT_POST, 'company');
+          
           $array = ['name' => $name, 'email' => $email, 'phone' => $phone, 'company' => $company];
           $json_filename = 'data_users.json';
           $old_json = file_get_contents($json_filename);

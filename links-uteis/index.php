@@ -73,7 +73,7 @@
 						<p class="subtitle">Curso completo</p>
 					</div>
 				</a>
-				<a href="https://www.sympla.com.br/curso-gestao-da-inovacao---turma-junho-2020__864347" target="_blank">
+				<a href="https://www.sympla.com.br/pedrochamochumbi" target="_blank">
 					<div class="icone-social">
           	<i class="far fa-lightbulb"></i>
 						<h4 class="title">Curso Gestão da Inovação</h4>
