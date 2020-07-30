@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Build Lab Academy - Curso Lógica de programação</title>
     <meta charset="utf-8">
@@ -35,126 +36,150 @@
 </head>
 
 <body class="background-black-buildlab">
-    
-      <header class="pt-5">
+
+    <header class="pt-5">
         <div class="container-fluid">
-          <div class="row d-flex justify-content-center">
-            <div id="typed-strings">
-              <p><span>QUER APRENDER A PROGRAMAR?</span></p>
+            <div class="row d-flex justify-content-center">
+                <div id="typed-strings">
+                    <p><span>QUER APRENDER A PROGRAMAR?</span></p>
+                </div>
+                <h1 class="title-landing-page"><span id="typed"></span></h1>
             </div>
-            <h1 class="title-landing-page"><span id="typed"></span></h1>
-          </div>
         </div>
-      </header>
+    </header>
 
-      <section class="container">
+    <section class="container">
         <div class="row d-flex justify-content-center">
-          <div class="col-10 col-md-6 d-flex flex-column order-2 order-md-1 justify-content-center">
-            <h1 class="title-curso">Lógica de Programação</h1>
-            <p class="mb-3 curso-description">Nesse curso 100% Online e 100% Gratuito você vai dar seus primeiros passos no mundo da programação.</p>
-            <div class="mb-4 d-flex flex-column flex-md-row align-items-center" id="curso-info">
-              <div class="my-3 curso-info-item d-flex flex-column justify-content-center align-items-center">
-                <i class="fas fa-video"></i> 
-                <p>+60 Aulas</p>
-              </div>
-              <div class="my-3 curso-info-item d-flex flex-column justify-content-center align-items-center">
-                <i class="fas fa-pen-alt"></i> 
-                <p>+70 Exercícios</p>
-              </div>
-              <div class="curso-info-item d-flex flex-column justify-content-center align-items-center mt-3 mb-md-3 mb-4">
-                <i class="fas fa-file-alt"></i> 
-                <p>Material didático</p>
-              </div>
+            <div class="col-10 col-md-6 d-flex flex-column order-2 order-md-1 justify-content-center">
+                <h1 class="title-curso">Lógica de Programação</h1>
+                <p class="mb-3 curso-description">Nesse curso 100% Online e 100% Gratuito você vai dar seus primeiros
+                    passos no mundo da programação.</p>
+                <div class="mb-4 d-flex flex-column flex-md-row align-items-center" id="curso-info">
+                    <div class="my-3 curso-info-item d-flex flex-column justify-content-center align-items-center">
+                        <i class="fas fa-video"></i>
+                        <p>+60 Aulas</p>
+                    </div>
+                    <div class="my-3 curso-info-item d-flex flex-column justify-content-center align-items-center">
+                        <i class="fas fa-pen-alt"></i>
+                        <p>+70 Exercícios</p>
+                    </div>
+                    <div
+                        class="curso-info-item d-flex flex-column justify-content-center align-items-center mt-3 mb-md-3 mb-4">
+                        <i class="fas fa-file-alt"></i>
+                        <p>Material didático</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-submit" data-toggle="modal"
+                        data-target="#modalInscricao">Inscrever-se agora!</button>
+                </div>
             </div>
-            <div class="text-center">
-              <button type="button" class="btn btn-submit" data-toggle="modal" data-target="#modalInscricao">Inscrever-se agora!</button>
+            <div class="col-10 col-md-6 order-1 order-md-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3XssffgnsU4"></iframe>
+                </div>
             </div>
-          </div>
-          <div class="col-10 col-md-6 order-1 order-md-2">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3XssffgnsU4"></iframe>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section class="site-section" id="blog-section">
+    <section class="site-section" id="blog-section">
         <div class="container">
-          <div class="row mb-2">
-              <div class="col-12 text-center">
-                  <h2 class="section-title mb-3">DEPOIMENTO DOS ALUNOS</h2>
-              </div>
-          </div>
+            <div class="row mb-2">
+                <div class="col-12 text-center">
+                    <h2 class="section-title mb-3">DEPOIMENTO DOS ALUNOS</h2>
+                </div>
+            </div>
 
-          <div class="row d-flex flex-lg-row flex-md-column justify-content-center align-items-center">
-            <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="h-entry">
-                  <iframe width="100%" height="220" src="https://www.youtube.com/embed/_F4iFNrz3Uw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h4 class="text-center">Laís Maio</h4>
+            <div class="row d-flex flex-lg-row flex-md-column justify-content-center align-items-center">
+                <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="h-entry">
+                        <iframe width="100%" height="220" src="https://www.youtube.com/embed/_F4iFNrz3Uw"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h4 class="text-center">Laís Maio</h4>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="h-entry">
+                        <iframe width="100%" height="220" src="https://www.youtube.com/embed/EqAwlnPpixo"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h4 class="text-center">Natan Paulo</h4>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="h-entry">
+                        <iframe width="100%" height="220" src="https://www.youtube.com/embed/Ld3AELcyXIk"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h4 class="text-center">Leiliane Cunha</h4>
+                    </div>
                 </div>
             </div>
-            <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="h-entry">
-                  <iframe width="100%" height="220" src="https://www.youtube.com/embed/EqAwlnPpixo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h4 class="text-center">Natan Paulo</h4>
-                </div>
-            </div>
-            <div class="col-10 col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="h-entry">
-                  <iframe width="100%" height="220" src="https://www.youtube.com/embed/Ld3AELcyXIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h4 class="text-center">Leiliane Cunha</h4>
-                </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <div class="footer py-5 text-center">
+    <div class="footer py-5 text-center">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 d-flex flex-column flex-md-row justify-content-between align-items-center">
-              <img src="images/logo-academy.png" id="logo-academy">
-              <p class="mb-0" id="copyright">
-                Copyright &copy;
-                <script>
-                    document.write(new Date().getFullYear());
-                </script>
-                All rights reserved <a href="https://buildlab.com.br/" target="_blank">Build Lab</a>
-              </p>
+            <div class="row">
+                <div class="col-md-12 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                    <img src="images/logo-academy.png" id="logo-academy">
+                    <p class="mb-0" id="copyright">
+                        Copyright &copy;
+                        <script>
+                        document.write(new Date().getFullYear());
+                        </script>
+                        All rights reserved <a href="https://buildlab.com.br/" target="_blank">Build Lab</a>
+                    </p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    
+    </div>
 
-     <!-- Modal -->
-     <div class="modal fade" id="modalInscricao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalInscricao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <div class="w-100 ml-2 d-flex justify-content-center">
-                <img src="images/logo-academy.png" width="150px">
-              </div>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true" style="color: #fff"><i class="fas fa-times"></i></span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form method="POST" class="form-signin">
-                <!-- <h1 class="h5 mb-5">INSCREVA-SE AGORA!</h1> -->
-                <label for="inputName" class="sr-only">Nome</label>
-                <input type="text" id="inputName" name="name1" class="form-control" placeholder="Nome" required>
-                <label for="inputEmail" class="sr-only">E-mail</label>
-                <input type="email" name="email" class="form-control mb-3" placeholder="Seu melhor E-mail" required>
-                <label for="inputName" class="sr-only">Telefone</label>
-                <input type="text" id="inputTelefone" name="phone" class="form-control" placeholder="Telefone">
-                <label for="inputName" class="sr-only">Instituição</label>
-                <input type="text" id="inputTelefone" name="company" class="form-control mb-3" placeholder="Instituição de ensino ou empresa" required>
-                <button class="btn btn-submit btn-block mb-4" name="submit" type="submit"><b>Quero aprender!</b></button>
-                <p class="extra-info text-center"><span class="fas fa-lock"></span> Os dados informados estão seguros</p>
-              </form>
-            </div>
-            <!-- <div class="modal-footer">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="w-100 ml-2 d-flex justify-content-center">
+                        <img src="images/logo-academy.png" width="150px">
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="color: #fff"><i class="fas fa-times"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form role="form" method="post" action="https://buildlab.tk/form/submit?formId=3" id="mauticform_aprendaaprogramar" data-mautic-form="aprendaaprogramar" enctype="multipart/form-data">
+                        <!-- <h1 class="h5 mb-5">INSCREVA-SE AGORA!</h1> -->
+                        <label for="inputName" class="sr-only">Nome</label>
+                        <input type="text" id="inputName" name="mauticform[nome]" class="form-control"
+                            placeholder="Nome" required>
+                        <label for="inputEmail" class="sr-only">E-mail</label>
+                        <input type="email" name="mauticform[email]" class="form-control mb-3"
+                            placeholder="Seu melhor E-mail" required>
+                        <label for="inputName" class="sr-only">Telefone</label>
+                        <input type="text" id="inputTelefone" name="mauticform[telefone]" class="form-control"
+                            placeholder="Telefone">
+                        <label for="inputName" class="sr-only">Instituição</label>
+                        <input type="text" id="inputTelefone" name="mauticform[intituicao]" class="form-control mb-3"
+                            placeholder="Instituição de ensino ou empresa" required>
+                        <button class="btn btn-submit btn-block mb-4" name="mauticform[inscreverse]"
+                            type="submit"><b>Quero aprender!</b></button>
+                        <p class="extra-info text-center"><span class="fas fa-lock"></span> Os dados informados estão
+                            seguros</p>
+                        <input type="hidden" name="mauticform[formId]" id="mauticform_aprendaaprogramar_id" value="3">
+                        <input type="hidden" name="mauticform[return]" id="mauticform_aprendaaprogramar_return"
+                            value="">
+                        <input type="hidden" name="mauticform[formName]" id="mauticform_aprendaaprogramar_name"
+                            value="aprendaaprogramar">
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
               <div class="row mb-5">
                 <div class="col-12">
                   <p class="mb-0">
@@ -167,11 +192,11 @@
                 </div>
               </div>
             </div> -->
-          </div>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <?php
+    <?php
         if (isset($_POST["submit"])) {
           $name = filter_input(INPUT_POST, 'name1');
           $email = strtolower(filter_input(INPUT_POST, 'email'));
@@ -231,17 +256,18 @@
     <script src="js/jquery.sticky.js"></script>
 
     <!-- TypeWriter JS -->
-  	<script type="text/javascript" src="js/typed.js"></script>
+    <script type="text/javascript" src="js/typed.js"></script>
 
     <script type="text/javascript">
-      var typed = new Typed('#typed', {
+    var typed = new Typed('#typed', {
         stringsElement: '#typed-strings',
         typeSpeed: 150,
         loop: false,
         cursorChar: '_'
-      });
+    });
     </script>
 
     <!-- <script src="js/modal.js"></script> -->
 </body>
+
 </html>
