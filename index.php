@@ -338,22 +338,6 @@
     </div>
   </div>
 </section>
-<section id="academy" class="container-fluid buildlab-container d-flex justify-content-center align-items-center">
-  <article id="academy-title">
-    <h1>Lógica de Programação</h1>
-  </article>
-  <article id="academy-info">
-    <h3>+60 Aulas</h3>
-    <h3>+70 Exercícios</h3>
-    <h3>2 Apostilas</h3>
-    <p>100% Online | 100% Gratuito</p>
-    <a href="https://buildlab.com.br/aprenda-a-programar/" target="_blank">
-      <button type="button" class="btn btn-green btn-lg">
-        Inscrever-se
-      </button>
-    </a>
-  </article>
-</section>
 
 	<!-- CONTATO -->
 	<section id="contato" class="container-fluid">
