@@ -215,7 +215,7 @@
       </div>
     </div>
 
-    <div class="col-12 col-sm-6 col-md-3">
+    <!-- <div class="col-12 col-sm-6 col-md-3">
       <div class="our-team">
         <div class="picture">
           <img class="img-fluid" src="assets/img/team/eliton.png">
@@ -223,6 +223,72 @@
         <div class="team-content">
           <h3 class="name">Eliton Camargo</h3>
           <h4 class="title">Instructor</h4>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="mailto:camargoliveira@gmail.com" class="fa fa-envelope" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://github.com/" class="fab fa-github" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/eliton-camargo-270a37b3/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="assets/img/team/gustavo.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Gustavo Tangi</h3>
+          <h4 class="title">Social Media</h4>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="mailto:camargoliveira@gmail.com" class="fa fa-envelope" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://github.com/" class="fab fa-github" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/eliton-camargo-270a37b3/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="assets/img/team/ceron.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Vinicius Ceron</h3>
+          <h4 class="title">Graphic Designer</h4>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="mailto:camargoliveira@gmail.com" class="fa fa-envelope" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://github.com/" class="fab fa-github" target="_blank" aria-hidden="true"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/eliton-camargo-270a37b3/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="assets/img/team/lais.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Laís Maio</h3>
+          <h4 class="title">Writer</h4>
         </div>
         <ul class="social">
           <li>
