@@ -272,9 +272,6 @@
           <li>
             <a href="https://instagram.com/crndesigner" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
           </li>
-          <li>
-            <a href="https://www.linkedin.com/in/eliton-camargo-270a37b3/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
-          </li>
         </ul>
       </div>
     </div>
