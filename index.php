@@ -248,13 +248,10 @@
         </div>
         <ul class="social">
           <li>
-            <a href="mailto:camargoliveira@gmail.com" class="fa fa-envelope" target="_blank" aria-hidden="true"></a>
+            <a href="mailto:" class="fa fa-envelope" aria-hidden="true" target="_blank"></a>
           </li>
           <li>
-            <a href="https://github.com/" class="fab fa-github" target="_blank" aria-hidden="true"></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/eliton-camargo-270a37b3/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+            <a href="https://instagram.com/_gustavoyudi_" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
           </li>
         </ul>
       </div>
@@ -270,10 +267,10 @@
         </div>
         <ul class="social">
           <li>
-            <a href="mailto:camargoliveira@gmail.com" class="fa fa-envelope" target="_blank" aria-hidden="true"></a>
+            <a href="mailto:" class="fa fa-envelope" aria-hidden="true" target="_blank"></a>
           </li>
           <li>
-            <a href="https://github.com/" class="fab fa-github" target="_blank" aria-hidden="true"></a>
+            <a href="https://instagram.com/crndesigner" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/eliton-camargo-270a37b3/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
@@ -292,13 +289,13 @@
         </div>
         <ul class="social">
           <li>
-            <a href="mailto:camargoliveira@gmail.com" class="fa fa-envelope" target="_blank" aria-hidden="true"></a>
+            <a href="mailto:mailto:laiscmj@gmail.com" class="fa fa-envelope" aria-hidden="true" target="_blank"></a>
           </li>
           <li>
-            <a href="https://github.com/" class="fab fa-github" target="_blank" aria-hidden="true"></a>
+            <a href="https://instagram.com/laismaio" class="fab fa-instagram" target="_blank" aria-hidden="true"></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/eliton-camargo-270a37b3/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+            <a href="https://www.linkedin.com/in/laismaio/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
           </li>
         </ul>
       </div>
