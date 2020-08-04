@@ -299,40 +299,6 @@
     </div>
   </div>
 
-  <!-- CONECTADOS -->
-  <div class="row">
-    <div class="col-md-12">
-      <center>
-        <h2 class="buildlab-container-title">Conectados</h2>
-      </center>
-    </div>
-  </div>
-
-  <div class="row d-flex justify-content-center align-items-center">
-    <div class="col-lg-3 col-sm-6 col-8 conectados-img">
-      <a href="https://sparkdesignthinking.com.br/" target="_blank"><img src="assets/img/conectados/spark.png" alt="" id="logo-spark"></a>
-    </div>
-    <div class="col-lg-3 col-sm-6 col-8 conectados-img">
-      <a href="https://gowinners.com.br/" target="_blank"><img src="assets/img/conectados/gowinners.png" alt="" id="logo-gowinners"></a>
-    </div>
-    <div class="col-lg-3 col-sm-6 col-8 conectados-img">
-      <a href="https://neocert.co" target="_blank"><img src="assets/img/conectados/neocert.png" alt="" id="logo-neocert"></a>
-    </div>
-    <div class="col-lg-3 col-sm-6 col-8 conectados-img">
-      <a href="https://www.brflor.com.br/" target="_blank"><img src="assets/img/conectados/brflor.png" alt="" id="logo-brflor"></a>
-    </div>
-    <div class="col-lg-3 col-sm-6 col-8 conectados-img">
-      <a href="http://www.szxcontabil.com/" target="_blank"><img src="assets/img/conectados/szx.png" alt="" id="logo-szx"></a>
-    </div>
-    <div class="col-lg-3 col-sm-6 col-8 conectados-img">
-      <a href="https://www.agrowthbrasil.com/" target="_blank"><img src="assets/img/conectados/agrowth.png" alt="" id="logo-agrowth"></a>
-    </div>
-    <div class="col-lg-3 col-sm-6 col-8 conectados-img">
-      <a href="https://www.moubi.com.br/" target="_blank"><img src="assets/img/conectados/moubi.png" alt="" id="logo-moubi"></a>
-    </div>
-  </div>
-</section>
-
 	<!-- CONTATO -->
 	<section id="contato" class="container-fluid">
 		<div class="row-fluid">
