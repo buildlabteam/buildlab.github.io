@@ -129,7 +129,7 @@
         </div>
         <div class="team-content">
           <h3 class="name">Lucas Tangi</h3>
-          <h4 class="title">Designer UX/UI</h4>
+          <h4 class="title">UX/UI Designer</h4>
         </div>
         <ul class="social">
           <li>
